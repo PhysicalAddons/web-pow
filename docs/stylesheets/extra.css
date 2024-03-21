@@ -1,0 +1,27 @@
+[data-md-color-primary=black] {
+    --md-footer-bg-color:        rgba(0,0,0,.95);
+    --md-footer-bg-color--dark: #000000;
+  }
+
+.md-content {
+    padding-bottom: 3rem;
+}
+/* release notes labels */
+code.label-new {
+    color: #ff6e42;
+}
+code.label-improvements {
+    color: #02a6f2;
+}
+code.label-fixed {
+    color: #8bc34b;
+}
+
+/* Changes to the logo */
+.md-header__button.md-logo {
+    padding: 0;
+}
+.md-header__button.md-logo :-webkit-any(img,svg) {
+    height: 1.6rem;
+}
+

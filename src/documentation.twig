@@ -1,0 +1,41 @@
+{% set documentation = [
+    {
+        'name': 'Mesh',
+        'icon': 'icons/blender-icons/light_sun.svg',
+        'parameters': [
+            {
+                'name': 'Size',
+                'excerpt': 'Description.',
+                'description': 'But longer.'
+            },
+        ]
+    },
+   
+]%}
+
+!!! tip ""
+    Hey :wave:, first time here? You can find the installation guide and first run in the [getting started](/pow/getting-started/) section.
+
+* [Mesh](#mesh)
+* [Material](#material)
+* [Camera & LOD](#camera-lod)
+* [Waves](#waves)
+* [Capillary Waves](#capillary-waves)
+* [Submerged Objects](#submerged-objects)
+* [Underwater](#underwater)
+* [Wakes & Ripples](#wakes-ripples)
+
+{% for section in documentation %}
+## <span class="twemoji">{% include section.icon %}</span> {{ section.name }}
+{% for parameter in section.parameters %}
+### {{ parameter.name }}
+<div class="parameter">
+    <div class="parameter__info">
+        <span>{{ parameter.excerpt }}</span>{% if parameter.description != '' %}<span style="margin-left: 4px; color: rgba(0,0,0,.5)">{{ parameter.description }}</span>{% endif %}
+    </div>
+    <div class="parameter__video">{% if parameter.video and parameter.video.src %}<video autoplay loop muted playsinline ><source src="{{parameter.video.src}}" type="video/mp4"></video>{% elseif parameter.image %}<img src="{{parameter.image.src}}" alt="{{parameter.image.alt}}" />{% endif %}</div>
+</div>
+{% if parameter.image_post %}<div class="parameter mb-64"><img src="{{parameter.image_post.src}}" alt="{{parameter.image_post.alt}}" /></div>{% endif %}
+{% endfor %}
+{% if section.post_block %}{{section.post_block}}{% endif %}
+{% endfor %}

@@ -1,0 +1,46 @@
+site_name: Physical Open Waters
+theme:
+  name: material
+  custom_dir: theme-extension
+  favicon: img/pow_transparent.svg
+  logo: img/pow_transparent.svg
+  palette:
+    primary: black
+  features:
+    - navigation.top
+plugins:
+  - search
+site_url: https://www.physicaladdons.com/pow/
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.keys
+  - attr_list
+  - abbr
+  - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      toc_depth: '1-2'
+      permalink: true
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Documentation: documentation.md
+  - FAQ and contacts: faq-and-contacts.md
+  - Release notes: release-notes.md
+extra_css:
+  - stylesheets/extra.css
+extra:
+  analytics:
+    provider: plausible
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/PhysicalAddons
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/PhysicalAddons/
+    - icon: fontawesome/brands/github
+      link: https://github.com/PhysicalAddons/
