@@ -17,7 +17,7 @@ Latest Physical Open Waters is supported by [Blender 3.6.0+](https://www.blender
 
 ???+ info 
 
-"Physical Open Waters" is only available for purchase on [Blendermarket](https://blendermarket.com/products/physical-open-waters) or [Gumroad](https://martinsh.gumroad.com/l/POW). Get your latest version there.
+    "Physical Open Waters" is only available for purchase on [Blendermarket](https://blendermarket.com/products/physical-open-waters) or [Gumroad](https://martinsh.gumroad.com/l/POW). Get your latest version there.
 
 
 ## Installation
