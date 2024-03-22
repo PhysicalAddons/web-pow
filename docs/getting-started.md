@@ -22,3 +22,11 @@ also called _N Panel_ and click on it.
 - Initialize it by clicking "+ Add Ocean" button.
 
 ## Presets
+the addon comes with 7 different presets:
+- calm waters
+- confused seas
+- moderate waters
+- rogue wave
+- serene
+- small breze
+- storm gusts
