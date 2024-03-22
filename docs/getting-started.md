@@ -33,6 +33,12 @@ Latest Physical Open Waters is supported by [Blender 3.6.0+](https://www.blender
 - Locate _Ocean_ tab in [Sidebar](https://docs.blender.org/manual/en/latest/interface/window_system/regions.html#sidebar)
 also called _N Panel_ and click on it.
 - Initialize it by clicking "+ Add Ocean" button.
+  
+???tip
+
+    - you must have a camera in your scene to see the water.
+    - Make sure you add a sun and allocate it to the addon in the panel.
+
 
 ## Presets
 the addon comes with 7 different presets:
