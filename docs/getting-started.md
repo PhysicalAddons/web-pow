@@ -56,9 +56,9 @@ the addon comes with 7 different presets:
 - storm gusts
 
 
-# How to make your own presets
+### How to make your own presets
 
-in the addon panel under presets click ''create new''
+- in the addon panel under presets click ''create new''
 name your preset! 
-if you wish to save changes to the already made preset click ''save''
+- if you wish to save changes to the already made preset click ''save''
 
