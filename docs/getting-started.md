@@ -10,14 +10,14 @@ Latest Physical Open Waters is supported by [Blender 3.6.0+](https://www.blender
 
 ??? warning "Use on MacOS (by default not supported)"
 
-    In order for the addon to function correctly, Blender needs to utilize OpenGL, which is not supported in the latest Blender updates for MacOS, causing the addon to malfunction.
+    In order for the addon to function correctly, Blender needs to utilize atribute modes, which are not supported in the latest Blender updates on MAC OS, causing the addon to malfunction.
     
     You may use the addon on MAC OS using blender version 3.6.0 and addon version 1.x 
-    Note: addon version 1.X is basic and does not include several features refer --> refer release notes
+    Note: addon version 1.X is basic and does not include several features refer to [release notes](https://www.physicaladdons.com/pow/release-notes/)
 
 ???+ info 
 
-    "Physical Open Waters" is only available for purchase on Blendermarket or Gumroad. Get your latest version there.
+"Physical Open Waters" is only available for purchase on [Blendermarket](https://blendermarket.com/products/physical-open-waters) or [Gumroad](https://martinsh.gumroad.com/l/POW). Get your latest version there.
 
 
 ## Installation
