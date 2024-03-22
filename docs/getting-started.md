@@ -23,6 +23,7 @@ also called _N Panel_ and click on it.
 
 ## Presets
 the addon comes with 7 different presets:
+
 - calm waters
 - confused seas
 - moderate waters
