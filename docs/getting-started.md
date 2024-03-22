@@ -41,6 +41,10 @@ also called _N Panel_ and click on it.
 
 
 ## Presets
+
+Presets allow you to store a snapshot of your customized ocean settings and return to it later or use already predefined presets provided by the addon.
+
+
 the addon comes with 7 different presets:
 
 - calm waters
@@ -50,3 +54,11 @@ the addon comes with 7 different presets:
 - serene
 - small breze
 - storm gusts
+
+
+# How to make your own presets
+
+in the addon panel under presets click ''create new''
+name your preset! 
+if you wish to save changes to the already made preset click ''save''
+
