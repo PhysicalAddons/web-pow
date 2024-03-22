@@ -5,7 +5,15 @@ title: Getting started
 # Getting started
 
 ## Requirements
-Physical Open Waters is supported by [Blender 3.3+](https://www.blender.org/).
+
+Latest Physical Open Waters is supported by [Blender 3.6.0+](https://www.blender.org/) (only Windows OS supported for now)
+
+??? warning "Use on MacOS (by default not supported)"
+
+    In order for the addon to function correctly, Blender needs to utilize OpenGL, which is not supported in the latest Blender updates for MacOS, causing the addon to malfunction.
+    You may use the addon on MAC OS using blender version 3.6.0 and addon version 1.x 
+    Note: addon version 1.X is basic and does not include several features refer --> refer release notes
+
 
 ## Installation
 - Download the "physical-open-waters[version here].zip" file.
