@@ -52,7 +52,7 @@ the addon comes with 7 different presets:
 - moderate waters
 - rogue wave
 - serene
-- small breze
+- small breeze
 - storm gusts
 
 
