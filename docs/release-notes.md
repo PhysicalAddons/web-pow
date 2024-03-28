@@ -1,13 +1,13 @@
 ### 1.1.0 <small>- released 28.03.2024</small>
 
-<!-- [![Release 1.1.0 banner](img/releases/pco1.6.0.jpg)](img/releases/pcoa0.1.0.jpg) -->
+[![Release 1.1.0 banner](img/releases/pow-1.1.0.jpg)](img/releases/pow-1.1.0.jpg)
 `new:`{: .label-new }
 
 - Added underwater shader for water surface and world.
 - Added new water surface material with custom light dispersing refraction shader.
+- Mesh: added option to select an object to be able to shrinkwrap Ocean around it.
 - Material: added water subsurface color, extinction and scattering parameters.
 - Camera: added water edge that is shown whenever the camera is between the atmosphere and water.
-- Wakes & Ripples: added option to select an object to be able to shrinkwrap Ocean around it.
 - Wakes & Ripples: added option to select up to 3 objects to apply ripples.
 - Underwater: added a way to select submerged objects to apply underwater shader.
 - Underwater: added particles that give a more realistic feel.
