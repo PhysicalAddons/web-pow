@@ -16,10 +16,6 @@
 - Whenever PSA is turned on before adding ocean, Starlight Sun automatically attached to the Sun slot.
 
 
-
-`fixed:`{: .label-fixed }
-
-
 ### 1.0.2 <small>- released 18.12.2023</small>
 
 `improvements:`{: .label-improvements }
