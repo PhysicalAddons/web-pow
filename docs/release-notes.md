@@ -1,4 +1,4 @@
-### 2.0.0 <small>- released 28.03.2024</small>
+### 1.1.0 <small>- released 28.03.2024</small>
 
 <!-- [![Release 1.1.0 banner](img/releases/pco1.6.0.jpg)](img/releases/pcoa0.1.0.jpg) -->
 `new:`{: .label-new }
