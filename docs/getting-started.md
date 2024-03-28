@@ -6,11 +6,11 @@ title: Getting started
 
 ## Requirements
 
-Latest Physical Open Waters is supported by [Blender 3.6.0+](https://www.blender.org/) (only Windows OS supported for now)
+Latest Physical Open Waters is supported by [Blender 3.6.0+](https://www.blender.org/)
 
 ??? warning "Use on MacOS (by default not supported)"
 
-    In order for the addon to function correctly, Blender needs to utilize atribute modes, which are not supported in the latest Blender updates on MAC OS, causing the addon to malfunction.
+    In order for the addon to function correctly, Blender needs to utilize attribute nodes, which are not supported in the latest Blender updates on MAC OS, causing the addon to malfunction.
     
     You may use the addon on MAC OS using blender version 3.6.0 and addon version 1.x 
     Note: addon version 1.X is basic and does not include several features refer to [release notes](https://www.physicaladdons.com/pow/release-notes/)

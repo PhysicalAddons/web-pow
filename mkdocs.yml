@@ -27,10 +27,11 @@ markdown_extensions:
       toc_depth: '1-2'
       permalink: true
 nav:
-  - Home: index.md
+  # - Home: index.md
   - Getting Started: getting-started.md
-  - Documentation: documentation.md
-  - FAQ and contacts: faq-and-contacts.md
+  # - Documentation: documentation.md
+  # - FAQ and contacts: faq-and-contacts.md
+  - Known issues: known-issues.md
   - Release notes: release-notes.md
 extra_css:
   - stylesheets/extra.css
