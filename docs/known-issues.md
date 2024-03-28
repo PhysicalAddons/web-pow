@@ -4,11 +4,11 @@ title: Known Issues
 
 
 
-**Latest POW 2.x not usable (all pink) on MacOS**
+**Latest POW 2.x is all pink on MacOS when using Eevee**
 
-In order for the POW addon to function correctly, Blender needs to utilize attribute nodes, which are not supported in the latest Blender updates on MacOS, causing the addon to malfunction. Here's [more in depth explanation](https://projects.blender.org/blender/blender/issues/112952) for the issue.
+In order for the addon to function correctly, Blender needs to utilize attribute nodes, which are not supported for Eevee in the latest Blender updates on MacOS, causing the addon to malfunction. Here's [more in depth explanation](https://projects.blender.org/blender/blender/issues/112952) for the issue.
 
-> We'll be taking closer look at the attribute nodes and how to address this issue right after the release.
+> We'll be taking closer look at the attribute nodes and how to address this issue right after the 1.1 release.
 
 
 **PSA presets (from Asset Browser) overwrite POW ocean data**

@@ -5,6 +5,7 @@
 
 - Material: added water subsurface color and extinction.
 - Camera: added water edge that is shown whenever camera is between atmosphere and water.
+- Wakes & Ripples: added option to select an object in order to be able to shrinkwrap Ocean around it.
 - Wakes & Ripples: added option to select up to 3 objects in order to apply ripples.
 - Underwater: added a way to select submerged objects in order to apply correct material.
 - Underwater: added particles that gives more realistic feel.

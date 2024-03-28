@@ -8,11 +8,11 @@ title: Getting started
 
 Latest Physical Open Waters is supported by [Blender 3.6.0+](https://www.blender.org/)
 
-??? warning "Use on MacOS (by default not supported)"
+??? warning "Use on MacOS (currently not supported on Eevee)"
 
-    In order for the addon to function correctly, Blender needs to utilize attribute nodes, which are not supported in the latest Blender updates on MAC OS, causing the addon to malfunction.
+    In order for the addon to function correctly, Blender needs to utilize attribute nodes, which are not supported for Eevee in the latest Blender updates on MacOS, causing the addon to malfunction.
     
-    You may use the addon on MAC OS using blender version 3.6.0 and addon version 1.x 
+    For now either you can use Cycles or use the addon on MacOS using blender version 3.6.0 and addon version 1.x 
     Note: addon version 1.X is basic and does not include several features refer to [release notes](https://www.physicaladdons.com/pow/release-notes/)
 
 ???+ info 
