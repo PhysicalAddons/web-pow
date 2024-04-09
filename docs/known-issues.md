@@ -3,8 +3,16 @@ title: Known Issues
 ---
 
 
+**My Particles on Cycles are black**
 
-**Latest POW 2.x is all pink on MacOS when using Eevee**
+Increase `Render > Light Paths > Transparency` to about 20. This will increase the number of transparent bounces performed.
+
+**My Ocean looks green**
+
+This is how it's supposed to look if the sun is close to the horizon. Try moving the sun up, and you'll notice the difference.
+
+
+**Latest POW 1.1 is all pink on MacOS when using Eevee**
 
 In order for the addon to function correctly, Blender needs to utilize attribute nodes, which are not supported for Eevee in the latest Blender updates on MacOS, causing the addon to malfunction. Here's [more in depth explanation](https://projects.blender.org/blender/blender/issues/112952) for the issue.
 
@@ -24,6 +32,7 @@ For example if Physical Starlight Atmosphere -->
 
 
 
+--------------------------
 
 **Didn't find your answer?**
 
