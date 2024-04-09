@@ -1,3 +1,23 @@
+### 1.1.1 <small>- released 09.04.2024</small>
+
+`new:`{: .label-new }
+
+- Mesh: added a way to increase height of the Ocean.
+- Material: added an option to select between Refractive and Subsurface Scatter shader models. 
+
+`fixed:`{: .label-fixed }
+
+- Fixed _red ocean_ appearing in Cycles rendering engine if ocean was removed and then added.
+
+
+    !!! Bug "Fixing _red ocean_ issue in the old files:"
+        1. Save new preset with your current ocean settings
+        2. Remove Ocean
+        3. Add Ocean
+        4. Apply your previously created preset
+    
+
+
 ### 1.1.0 <small>- released 28.03.2024</small>
 
 [![Release 1.1.0 banner](img/releases/pow-1.1.0.jpg)](img/releases/pow-1.1.0.jpg)
