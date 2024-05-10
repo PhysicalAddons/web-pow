@@ -29,7 +29,7 @@ markdown_extensions:
 nav:
   # - Home: index.md
   - Getting Started: getting-started.md
-  # - Documentation: documentation.md
+  - Documentation: documentation.md
   # - FAQ and contacts: faq-and-contacts.md
   - Known issues: known-issues.md
   - Release notes: release-notes.md
