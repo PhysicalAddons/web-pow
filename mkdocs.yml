@@ -20,16 +20,16 @@ markdown_extensions:
   - attr_list
   - abbr
   - footnotes
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:materialx.emoji.twemoji
+  #     emoji_generator: !!python/name:materialx.emoji.to_svg
   - toc:
       toc_depth: '1-2'
       permalink: true
 nav:
   # - Home: index.md
   - Getting Started: getting-started.md
-  # - Documentation: documentation.md
+  - Documentation: documentation.md
   # - FAQ and contacts: faq-and-contacts.md
   - Known issues: known-issues.md
   - Release notes: release-notes.md
