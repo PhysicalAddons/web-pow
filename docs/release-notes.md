@@ -2,6 +2,8 @@
 
 `new:`{: .label-new }
 
+- Added new controls for adjusting ripples.
+- Easily adjust reflections with the new control options.
 - New features (from v1.1) are now available for Blender 3.6 LTS version.
 - Added a more precise water shader and optimized performance. 
 
@@ -16,7 +18,6 @@
 - Fixed link to documentation in the addon preferences panel.
 - Fixed preset load error that occurred when migrating blend files from one system to another with a different number of presets.
 - Fixed issue preventing Ocean removal when an object with an empty material slot was added.
-
 
 
 
