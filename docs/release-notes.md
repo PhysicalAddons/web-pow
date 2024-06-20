@@ -1,3 +1,25 @@
+### 1.2.0 <small>- released xx.xx.2024</small>
+
+`new:`{: .label-new }
+
+- New features (from v1.1) are now available for Blender 3.6 LTS version.
+- Added a more precise water shader and optimized performance. 
+
+`improvements:`{: .label-improvements }
+
+- Added Physical Starlight and Atmosphere abbreviation (PSA) to simplify addon search in Blender Preferences.
+- Added a user-friendly way to indicate that a World is required to add an Ocean.
+
+
+`fixed:`{: .label-fixed }
+
+- Fixed link to documentation in the addon preferences panel.
+- Fixed preset load error that occurred when migrating blend files from one system to another with a different number of presets.
+- Fixed issue preventing Ocean removal when an object with an empty material slot was added.
+
+
+
+
 ### 1.1.1 <small>- released 09.04.2024</small>
 
 `new:`{: .label-new }
