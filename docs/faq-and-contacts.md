@@ -1,5 +1,5 @@
 ---
-title: Known Issues
+title: FAQ and contacts
 ---
 
 ??? cite "Do I have to pay for updates?"
@@ -36,9 +36,5 @@ title: Known Issues
 For example if Physical Starlight Atmosphere -->
 
 
-
---------------------------
-
-**Didn't find your answer?**
-
-Visit our community support [Discord channel](https://discord.gg/wvzPVzj9Vr) for more help.
+??? cite "Didn't find your answer?"
+    Visit our community support [Discord channel](https://discord.gg/wvzPVzj9Vr) for more help.
