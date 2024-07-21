@@ -1,7 +1,7 @@
 
 
 !!! tip ""
-    Hey :wave:, first time here? You can find the installation guide and first run in the [getting started](/pow/getting-started/) section.
+    Hey :wave:, first time here? You can find the `Installation Guide` and `First Run` in the [getting started](/pow/getting-started/) section.
 
 * [Mesh](#mesh)
 * [Material](#material)
