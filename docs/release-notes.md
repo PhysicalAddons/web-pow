@@ -1,23 +1,30 @@
-### 1.2.0 <small>- released xx.xx.2024</small>
+### 1.2.0 <small>- released 22.07.2024</small>
 
 `new:`{: .label-new }
 
-- Added new controls for adjusting ripples.
-- Easily adjust reflections with the new control options.
-- New features (from v1.1) are now available for Blender 3.6 LTS version.
-- Added a more precise water shader and optimized performance. 
+- Introduced new controls for adjusting ripples with updated default values.
+- Easily adjust reflections using the new control options.
+- New features (from v1.1) are now compatible with Blender 3.6 LTS.
+- Enhanced water shader for better precision and optimized performance.
 
 `improvements:`{: .label-improvements }
 
-- Added Physical Starlight and Atmosphere abbreviation (PSA) to simplify addon search in Blender Preferences.
-- Added a user-friendly way to indicate that a World is required to add an Ocean.
+- Added the abbreviation "POW" (Physical Open Waters) to simplify addon search in Blender Preferences.
+- Implemented a user-friendly way to indicate that a World is required to add an Ocean.
 
 
 `fixed:`{: .label-fixed }
 
 - Fixed link to documentation in the addon preferences panel.
-- Fixed preset load error that occurred when migrating blend files from one system to another with a different number of presets.
-- Fixed issue preventing Ocean removal when an object with an empty material slot was added.
+- Resolved the preset load error when migrating blend files between systems with different numbers of presets.
+- Fixed an issue that prevented Ocean removal when an object with an empty material slot was added.
+- Synchronized camera height and water level to fix underwater darkness.
+- Ensured the world ocean horizon remains unchanged when height is adjusted.
+- Fixed the ocean border shader.
+
+
+!!! Warning "Advanced: If your have modified Ocean node tree, backup your blend files before installing the new version."
+    Custom changes in the node setup may be overwritten during the update process as the Ocean is removed and added again.
 
 
 
