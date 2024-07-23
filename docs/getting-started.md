@@ -8,7 +8,7 @@ _Physical Open Waters_ (POW) is a Blender add-on for <MĀRTIŅŠ>
 
 ## Requirements
 
-Latest Physical Open Waters is supported by [Blender 3.6.0+](https://www.blender.org/)
+Latest Physical Open Waters is supported by [Blender 3.6.0+](https://www.blender.org/).
 
 ??? warning "Use on MacOS (currently not supported on Eevee)"
 
@@ -67,7 +67,7 @@ The add-on comes with 7 different presets:
 - `small breeze`
 - `storm gusts`
 
-### Using presets
+### How to use presets
 
 1. Install the POW add-on.
 2. Enable the add-on inside the *Blender Preferences*
