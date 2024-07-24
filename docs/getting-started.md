@@ -3,20 +3,19 @@ title: Getting started
 ---
 
 # Getting started
-
-_Physical Open Waters_ (POW) is a Blender add-on for <MĀRTIŅŠ>
+ 
+_Physical Open Waters_ (POW) is a versatile Blender add-on that simplifies the creation of realistic ocean scenes. It provides real-time rendering capabilities, a range of ready-to-use presets, and detailed wave simulations. Compatible with both Eevee and Cycles, POW enables users to animate water features and achieve visually stunning results with minimal effort.
 
 ## Requirements
 
 Latest Physical Open Waters is supported by [Blender 3.6.0+](https://www.blender.org/).
 
-??? warning "Use on MacOS (currently not supported on Eevee)"
+??? warning "Use on MacOS (currently not supported on Eevee). But works with a workaround 👇"
+    How to avoid Pink issue on MacOS Eevee (requires PSA addon):
 
-    In order for the add-on to function correctly on MacOS ARM, Blender needs to utilize `attribute nodes`, which are not supported for `Eevee` in the latest MacOS Blender version, causing the add-on to malfunction.
-    
-    For now you can either use `Cycles` or use the 1.X build of the add-on on MacOS through Blender version 3.6.0.
-
-    Note: version 1.X is a basic build, that does not several features. Please refer to the [release notes](https://www.physicaladdons.com/pow/release-notes/).
+    - Add Physical Open Water (PCO) Ocean to the Scene.
+    - Enable Physical Starlight and Atmosphere (PSA) and enable it in the scene.
+     
 
 
 ## Installation
@@ -39,7 +38,9 @@ also called _N Panel_. Click on the tab _Ocean_ to reveal it.
 - Enable the add-on by clicking the `+ Add Ocean` button.
   
 !!! important
-    You must have a camera in your scene to see the water. You must also make sure you to add a sun and allocate it to the add-on in the _Ocean_ panel.
+    - You must have a World to be able to add an Ocean. 
+    - You must have a Camera in your scene to see the water properly.
+    - You must also make sure you to add a Sun and allocate it to the add-on in the _Ocean_ panel.
 
 [![Enable POW](img/ENABLE_POW.jpg)](img/ENABLE_POW.jpg)
 
@@ -48,8 +49,8 @@ also called _N Panel_. Click on the tab _Ocean_ to reveal it.
 [![Disable POW](img/DISABLE_POW.jpg)](img/DISABLE_POW.jpg)
 
 
-!!! summary "What happens when the _Ocean_ is added?"
-    - <MĀRTIŅŠ>
+<!-- !!! summary "What happens when the _Ocean_ is added?"
+    - <MĀRTIŅŠ> -->
 
 ## Presets
 

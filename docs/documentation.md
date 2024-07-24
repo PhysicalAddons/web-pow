@@ -1,7 +1,7 @@
 
 
 !!! tip ""
-    Hey :wave:, first time here? You can find the `Installation Guide` and `First Run` in the [getting started](/pow/getting-started/) section.
+    Hey, first time here? You can find the installation guide and first run in the [getting started](/pow/getting-started/) section.
 
 * [Mesh](#mesh)
 * [Material](#material)
@@ -13,7 +13,7 @@
 
 
 
-## <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" xml:space="preserve"><path d="M9.492 2.996A.5.5 0 0 0 9 3.504v2.654a3.98 3.98 0 0 0-1.955 1.184L4.854 5.15a.5.5 0 1 0-.707.707l2.32 2.32A3.941 3.941 0 0 0 6 10.004H3.5c-.667 0-.667 1 0 1h2.64a3.98 3.98 0 0 0 1.192 1.96L5.146 15.15c-.471.472.236 1.18.708.708l2.316-2.317c.55.286 1.162.463 1.822.463H10v2.5c0 .667 1 .667 1 0v-2.646a3.982 3.982 0 0 0 1.953-1.194l2.194 2.194c.471.505 1.214-.237.707-.708l-2.325-2.324a3.934 3.934 0 0 0 .458-1.814v-.008H16.5c.667 0 .667-1 0-1h-2.66a3.983 3.983 0 0 0-1.186-1.947l2.2-2.2a.5.5 0 1 0-.708-.707l-2.33 2.33A3.942 3.942 0 0 0 10 6.018V3.504a.5.5 0 0 0-.508-.508zm.5 4.022a2.987 2.987 0 0 1 2.994 2.994 2.986 2.986 0 0 1-2.994 2.992A2.984 2.984 0 0 1 7 10.012a2.986 2.986 0 0 1 2.992-2.994z"/></svg></span> Mesh
+## <span class="twemoji"><svg height="1600" viewBox="0 0 1600 1600" width="1600" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"><sodipodi:namedview pagecolor="#303030" showgrid="true"><inkscape:grid id="grid5" units="px" spacingx="100" spacingy="100" color="#4772b3" opacity="0.2" visible="true" /></sodipodi:namedview><g fill="#fff"><g enable-background="new" transform="matrix(100 0 0 100 -10998.34 -38804.785)"><path d="m111.4668 389a.50005.50005 0 0 0 -.5.5v13.0957a.50005.50005 0 0 0 .5.5h13.0332a.50005.50005 0 0 0 .5-.5v-13.0957a.50005.50005 0 0 0 -.5-.5zm.5 1h12.0332v12.0957h-12.0332z"/><path d="m115.49219 390.99219a.50005.50005 0 0 0 -.49219.50781v1.5h-1.5a.50005.50005 0 1 0 0 1h1.5v4h-1.5a.50005.50005 0 1 0 0 1h1.5v1.5a.50005.50005 0 1 0 1 0v-1.5h4v1.5a.50005.50005 0 1 0 1 0v-1.5h1.5a.50005.50005 0 1 0 0-1h-1.5v-4h1.5a.50005.50005 0 1 0 0-1h-1.5v-1.5a.50005.50005 0 1 0 -1 0v1.5h-4v-1.5a.50005.50005 0 0 0 -.50781-.50781zm.50781 3.00781h4v4h-4z" opacity=".8"/></g></g></svg></span> Mesh
 
 ### Height
 <div class="parameter">
@@ -62,7 +62,16 @@
 
 
 
-## <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" xml:space="preserve"><path d="M10 3c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm0 1a5.991 5.991 0 0 1 5.998 5.959C14.887 10.903 12.995 12 10 12v4c-3.32 0-6-2.68-6-6l.002-.043C5.113 10.901 7.003 12 10 12z"/></svg></span> Material
+## <span class="twemoji"><svg height="1600" viewBox="0 0 1600 1600" width="1600" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"><sodipodi:namedview pagecolor="#303030" showgrid="true"><inkscape:grid id="grid5" units="px" spacingx="100" spacingy="100" color="#4772b3" opacity="0.2" visible="true" /></sodipodi:namedview><g fill="#fff"><path d="m34 557c-3.860079 0-7 3.13992-7 7s3.139921 7 7 7 7-3.13992 7-7-3.139921-7-7-7zm0 1c3.305801 0 5.975833 2.65852 5.998047 5.95898-1.111503.94364-3.002682 2.04102-5.998047 2.04102v4c-3.319633 0-6-2.68037-6-6 0-.0145.0019-.0285.002-.043 1.111203.94401 3.000992 2.043 5.998 2.043z" transform="matrix(99.999620512 0 0 99.999620512 -2599.9870308 -55599.7860024)"/></g></svg></span> Material
+
+### Type
+<div class="parameter">
+    <div class="parameter__info">
+        <span>A choice between Refractive and Subsurface scatter.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
 
 ### Color
 <div class="parameter">
@@ -136,6 +145,42 @@
 </div>
 
 
+### Reflection IOR
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
+
+### Refraction IOR
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
+
+### Refraction Dispersion
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
+
+### Reflection Fresnel Boost
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
+
 ### Camera Near Offset
 <div class="parameter">
     <div class="parameter__info">
@@ -145,14 +190,50 @@
 </div>
 
 
+### Color
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
 
 
-## <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" xml:space="preserve"><path d="M5.75 3.5a.5.5 0 0 0-.482.37l-3.25 12a.5.5 0 0 0 .482.63h15a.5.5 0 0 0 .482-.63l-3.25-12a.5.5 0 0 0-.482-.37zm.383 1h2.086l-.217 2H5.59zm3.094 0h1.546l.217 2H9.01zm2.554 0h2.086l.541 2h-2.41zm-6.46 3h2.572l-.327 3H4.508zm3.58 0H11.1l.326 3H8.574zm3.206 0h2.573l.812 3h-3.058zm-7.87 4h3.22l-.434 4h-3.87zm4.23 0h3.066l.436 4H8.03zm4.076 0h3.22l1.085 4h-3.871z" /></svg></span> Camera & LOD
+### Subsurface Scale
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
+
+### Reflection IOR
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
+
+
+
+## <span class="twemoji"><svg height="1800" viewBox="0 0 1800 1800" width="1800" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"><sodipodi:namedview pagecolor="#303030" showgrid="true"><inkscape:grid id="grid5" units="px" spacingx="100" spacingy="100" color="#4772b3" opacity="0.2" visible="true" /></sodipodi:namedview><g fill="#fff"><path d="m498.5 10c-2.1397 0-3.80728 1.4725-4.33008 3.2441-.6497-.7477-1.51052-1.2441-2.66992-1.2441-1.9271 0-3.5 1.5729-3.5 3.5 0 1.927 1.5729 3.5 3.5 3.5h7c2.4794 0 4.5-2.0207 4.5-4.5 0-2.4794-2.0206-4.5-4.5-4.5zm0 3c.8225 0 1.5.6774 1.5 1.5 0 .8225-.6775 1.5-1.5 1.5s-1.5-.6775-1.5-1.5c0-.8226.6775-1.5 1.5-1.5zm-7 1c.8225 0 1.5.6774 1.5 1.5 0 .8225-.6775 1.5-1.5 1.5s-1.5-.6775-1.5-1.5c0-.8226.6775-1.5 1.5-1.5zm7 0c-.2821 0-.5.2179-.5.5 0 .282.2179.5.5.5s.5-.218.5-.5c0-.2821-.2179-.5-.5-.5zm-7 1c-.2821 0-.5.2179-.5.5 0 .282.2179.5.5.5s.5-.218.5-.5c0-.2821-.2179-.5-.5-.5zm1 5c-.2761 0-.5.2239-.5.5v1 .5h-1v-.5c.004-.2823-.22555-.5122-.50781-.5078-.27615 0-.49651.2316-.49219.5078v1 1c.009.6573.9907.6573 1 0v-.5h1v.5 1c0 .1326.053.2597.14648.3535l1 1c.094.094.22092.1465.35352.1465h5c.2761 0 .5-.2239.5-.5v-5c0-.2761-.2239-.5-.5-.5zm10.98438 1c-.0871 0-.17191.028-.2461.074l-3.25 2c-.31714.1953-.31714.6563 0 .8516l3.25 2c.33298.2045.76131-.035.76172-.4258v-4c.00011-.2823-.23341-.5088-.51562-.5z" transform="matrix(100 0 0 100 -48699.99999999999 -900.015)"/></g></svg></span> Camera & LOD
+
+### Camera
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
 
 ### End Clip Plane
 <div class="parameter">
     <div class="parameter__info">
-        <span>Sets the distance from the camera beyond which objects are no longer rendered.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">This parameter determines the furthest point in the scene that is visible to the camera. It’s a built-in parameter for camera, exposed in the addon for ease of access.</span>
+        <span>Sets the distance from the camera beyond which objects are no longer rendered.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">This parameter determines the furthest point in the scene that is visible to the camera. It’s a built-in parameter for camera, exposed in the add-on for ease of access.</span>
     </div>
     <div class="parameter__video"></div>
 </div>
@@ -250,7 +331,7 @@
 
 
 
-## <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" xml:space="preserve"><path d="M10.69 3.012A4.003 4.003 0 0 0 7 7a.5.5 0 0 0 .016.133 3.973 3.973 0 0 0-1.059.427 3.994 3.994 0 0 0-1.879 4.145A2.998 2.998 0 0 0 3.002 14.1a3.005 3.005 0 0 0 2.672 2.881 3 3 0 0 0 3.152-2.008 3.97 3.97 0 0 0 2.499-.746 3.498 3.498 0 0 0 3.789.377 3.5 3.5 0 0 0-.322-6.357 3.998 3.998 0 0 0-.885-3.996 4.024 4.024 0 0 0-3.217-1.24zm.521.996a2.996 2.996 0 0 1 2.51 4.256.5.5 0 0 0-.053.216.5.5 0 0 0 .387.582 2.498 2.498 0 0 1 .598 4.656 2.499 2.499 0 0 1-2.84-.372.5.5 0 0 0-.203-.12.5.5 0 0 0-.282-.097.5.5 0 0 0-.351.129 3 3 0 0 1-2.399.713.5.5 0 0 0-.543.33.5.5 0 0 0-.097.197 1.994 1.994 0 0 1-2.154 1.49 1.993 1.993 0 0 1-.957-3.598.5.5 0 0 0 .166-.117c.198-.115.418-.2.656-.242a.5.5 0 0 0-.09-.994.5.5 0 0 0-.084.01c-.16.028-.313.075-.463.127a2.992 2.992 0 0 1 5.057-2.346.5.5 0 0 0 .69-.724 3.995 3.995 0 0 0-2.31-1.079C8.302 7.008 8.15 7.01 8 7.01A.5.5 0 0 0 8 7a2.996 2.996 0 0 1 3.211-2.992z"/></svg></span> Waves
+## <span class="twemoji"><svg height="1500" viewBox="0 0 1600 1500" width="1600" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"><sodipodi:namedview pagecolor="#303030" showgrid="true"><inkscape:grid id="grid5" units="px" spacingx="100" spacingy="100" color="#4772b3" opacity="0.2" visible="true" /></sodipodi:namedview><g fill="#fff"><path d="m219.50391 243a.50005.50005 0 0 0 -.45118.27734c-.67049 1.34099-1.7194 1.72266-2.55273 1.72266a.50005.50005 0 1 0 0 1c1.00319 0 2.15225-.6005 3-1.7832.82397 1.14952 1.9314 1.74461 2.91406 1.77734a.50005.50005 0 0 0 .002 0 .50005.50005 0 0 0 .084.006.50005.50005 0 0 0 .0996-.008c.97927-.0378 2.08023-.63118 2.90039-1.77539.84775 1.1827 1.99681 1.7832 3 1.7832a.50005.50005 0 1 0 0-1c-.83333 0-1.88224-.38167-2.55273-1.72266a.50005.50005 0 0 0 -.44341-.27729.50005.50005 0 0 0 -.45118.27734c-.67049 1.34099-1.7194 1.72266-2.55273 1.72266s-1.88224-.38167-2.55273-1.72266a.50005.50005 0 0 0 -.44336-.27734zm1 5a.50005.50005 0 0 0 -.45118.27734c-.67049 1.34099-1.7194 1.72266-2.55273 1.72266a.50005.50005 0 1 0 0 1c1.00319 0 2.15225-.6005 3-1.7832.82397 1.14952 1.9314 1.74461 2.91406 1.77734a.50005.50005 0 0 0 .002 0 .50005.50005 0 0 0 .084.006.50005.50005 0 0 0 .0859-.006.50005.50005 0 0 0 .0137-.002c.97927-.0378 2.08023-.63118 2.90039-1.77539.84775 1.1827 1.99681 1.7832 3 1.7832a.50005.50005 0 1 0 0-1c-.83333 0-1.88224-.38167-2.55273-1.72266a.50005.50005 0 0 0 -.44341-.27729.50005.50005 0 0 0 -.45118.27734c-.67049 1.34099-1.7194 1.72266-2.55273 1.72266s-1.88224-.38167-2.55273-1.72266a.50005.50005 0 0 0 -.44336-.27734zm-1 5a.50005.50005 0 0 0 -.45118.27734c-.67049 1.34099-1.7194 1.72266-2.55273 1.72266a.50005.50005 0 1 0 0 1c1.00319 0 2.15225-.6005 3-1.7832.82397 1.14952 1.9314 1.74461 2.91406 1.77734a.50005.50005 0 0 0 .002 0 .50005.50005 0 0 0 .084.006.50005.50005 0 0 0 .0996-.008c.97927-.0378 2.08023-.63118 2.90039-1.77539.84775 1.1827 1.99681 1.7832 3 1.7832a.50005.50005 0 1 0 0-1c-.83333 0-1.88224-.38167-2.55273-1.72266a.50005.50005 0 0 0 -.44341-.27729.50005.50005 0 0 0 -.45118.27734c-.67049 1.34099-1.7194 1.72266-2.55273 1.72266s-1.88224-.38167-2.55273-1.72266a.50005.50005 0 0 0 -.44336-.27734z" transform="matrix(100 0 0 100 -21500.003 -24200.011)"/></g></svg></span> Waves
 
 ### Smallest wave
 <div class="parameter">
@@ -344,7 +425,7 @@
 
 
 
-## <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" xml:space="preserve"><path d="M10.69 3.012A4.003 4.003 0 0 0 7 7a.5.5 0 0 0 .016.133 3.973 3.973 0 0 0-1.059.427 3.994 3.994 0 0 0-1.879 4.145A2.998 2.998 0 0 0 3.002 14.1a3.005 3.005 0 0 0 2.672 2.881 3 3 0 0 0 3.152-2.008 3.97 3.97 0 0 0 2.499-.746 3.498 3.498 0 0 0 3.789.377 3.5 3.5 0 0 0-.322-6.357 3.998 3.998 0 0 0-.885-3.996 4.024 4.024 0 0 0-3.217-1.24zm.521.996a2.996 2.996 0 0 1 2.51 4.256.5.5 0 0 0-.053.216.5.5 0 0 0 .387.582 2.498 2.498 0 0 1 .598 4.656 2.499 2.499 0 0 1-2.84-.372.5.5 0 0 0-.203-.12.5.5 0 0 0-.282-.097.5.5 0 0 0-.351.129 3 3 0 0 1-2.399.713.5.5 0 0 0-.543.33.5.5 0 0 0-.097.197 1.994 1.994 0 0 1-2.154 1.49 1.993 1.993 0 0 1-.957-3.598.5.5 0 0 0 .166-.117c.198-.115.418-.2.656-.242a.5.5 0 0 0-.09-.994.5.5 0 0 0-.084.01c-.16.028-.313.075-.463.127a2.992 2.992 0 0 1 5.057-2.346.5.5 0 0 0 .69-.724 3.995 3.995 0 0 0-2.31-1.079C8.302 7.008 8.15 7.01 8 7.01A.5.5 0 0 0 8 7a2.996 2.996 0 0 1 3.211-2.992z"/></svg></span> Capillary Waves
+## <span class="twemoji"><svg height="1600" viewBox="0 0 1600 1600" width="1600" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"><sodipodi:namedview pagecolor="#303030" showgrid="true"><inkscape:grid id="grid5" units="px" spacingx="100" spacingy="100" color="#4772b3" opacity="0.2" visible="true" /></sodipodi:namedview><g fill="#fff"><g enable-background="new" stroke="none" transform="matrix(100 0 0 100 -25700.42700000001 -45099.289)"><path d="m267.50195 451.98633a.50005.50005 0 0 0 -.34765.85937l2.66015 2.66016-2.67383 2.89648a.50005.50005 0 0 0 -.13281.33985v.5a.50005.50005 0 0 0 .13281.33984l2.67383 2.89649-2.66015 2.66015a.50005.50005 0 1 0 .70703.70703l3-3a.50005.50005 0 0 0 .0137-.69336l-2.86719-3.10546v-.10938l2.86719-3.10547a.50005.50005 0 0 0 -.0137-.69336l-3-3a.50005.50005 0 0 0 -.35938-.15234z" opacity=".7"/><path d="m263.50195 451.98633a.50005.50005 0 0 0 -.34765.85937l2.66015 2.66016-2.67383 2.89648a.50005.50005 0 0 0 -.13281.33985v.5a.50005.50005 0 0 0 .13281.33984l2.67383 2.89649-2.66015 2.66015a.50005.50005 0 1 0 .70703.70703l3-3a.50005.50005 0 0 0 .0137-.69336l-2.86719-3.10546v-.10938l2.86719-3.10547a.50005.50005 0 0 0 -.0137-.69336l-3-3a.50005.50005 0 0 0 -.35938-.15234z" opacity=".85"/><path d="m259.50195 451.98633a.50005.50005 0 0 0 -.34765.85937l2.66015 2.66016-2.67383 2.89648a.50005.50005 0 0 0 -.13281.33985v.5a.50005.50005 0 0 0 .13281.33984l2.67383 2.89649-2.66015 2.66015a.50005.50005 0 1 0 .70703.70703l3-3a.50005.50005 0 0 0 .0137-.69336l-2.86719-3.10546v-.10938l2.86719-3.10547a.50005.50005 0 0 0 -.0137-.69336l-3-3a.50005.50005 0 0 0 -.35938-.15234z"/></g></g></svg></span> Capillary Waves
 
 ### Strength
 <div class="parameter">
@@ -418,6 +499,15 @@
 </div>
 
 
+### Mask Offset
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
+
 ### Mask Minimum
 <div class="parameter">
     <div class="parameter__info">
@@ -456,30 +546,12 @@
 
 
 
-## <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" xml:space="preserve"><path d="M10.69 3.012A4.003 4.003 0 0 0 7 7a.5.5 0 0 0 .016.133 3.973 3.973 0 0 0-1.059.427 3.994 3.994 0 0 0-1.879 4.145A2.998 2.998 0 0 0 3.002 14.1a3.005 3.005 0 0 0 2.672 2.881 3 3 0 0 0 3.152-2.008 3.97 3.97 0 0 0 2.499-.746 3.498 3.498 0 0 0 3.789.377 3.5 3.5 0 0 0-.322-6.357 3.998 3.998 0 0 0-.885-3.996 4.024 4.024 0 0 0-3.217-1.24zm.521.996a2.996 2.996 0 0 1 2.51 4.256.5.5 0 0 0-.053.216.5.5 0 0 0 .387.582 2.498 2.498 0 0 1 .598 4.656 2.499 2.499 0 0 1-2.84-.372.5.5 0 0 0-.203-.12.5.5 0 0 0-.282-.097.5.5 0 0 0-.351.129 3 3 0 0 1-2.399.713.5.5 0 0 0-.543.33.5.5 0 0 0-.097.197 1.994 1.994 0 0 1-2.154 1.49 1.993 1.993 0 0 1-.957-3.598.5.5 0 0 0 .166-.117c.198-.115.418-.2.656-.242a.5.5 0 0 0-.09-.994.5.5 0 0 0-.084.01c-.16.028-.313.075-.463.127a2.992 2.992 0 0 1 5.057-2.346.5.5 0 0 0 .69-.724 3.995 3.995 0 0 0-2.31-1.079C8.302 7.008 8.15 7.01 8 7.01A.5.5 0 0 0 8 7a2.996 2.996 0 0 1 3.211-2.992z"/></svg></span> Wakes & Ripples
+## <span class="twemoji"><svg height="1200" viewBox="0 0 1500 1200" width="1500" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"><sodipodi:namedview pagecolor="#303030" showgrid="true"><inkscape:grid id="grid5" units="px" spacingx="100" spacingy="100" color="#4772b3" opacity="0.2" visible="true" /></sodipodi:namedview><g fill="#fff"><path d="m327.48047 181a.50005.50005 0 0 0 -.46875.39453c-.73399 3.42527-2.46804 7.48775-5.67969 8.63477a.50005.50005 0 1 0 .33594.9414c3.19373-1.14062 4.90029-4.45895 5.83203-7.61914.93174 3.16019 2.6383 6.47852 5.83203 7.61914a.50005.50005 0 1 0 .33594-.9414c-3.21165-1.14702-4.9457-5.2095-5.67969-8.63477a.50005.50005 0 0 0 -.50781-.39453z" transform="matrix(100 0 0 100 -32000 -18000.265)"/></g></svg></span> Wakes & Ripples
 
 ### Wakes
 <div class="parameter">
     <div class="parameter__info">
         <span>Select an object to be a wakes caster.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
-    </div>
-    <div class="parameter__video"></div>
-</div>
-
-
-### Wake Height
-<div class="parameter">
-    <div class="parameter__info">
-        <span>Control the height/strength of wakes produced.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
-    </div>
-    <div class="parameter__video"></div>
-</div>
-
-
-### Ripples
-<div class="parameter">
-    <div class="parameter__info">
-        <span>Select object and enable ripple checkbox to make the object produce ripples.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
     </div>
     <div class="parameter__video"></div>
 </div>
@@ -494,9 +566,72 @@
 </div>
 
 
+### Ripples
+<div class="parameter">
+    <div class="parameter__info">
+        <span>Select object and enable ripple checkbox to make the object produce ripples.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
 
 
-## <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" xml:space="preserve"><path d="M10 3c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm0 1a5.991 5.991 0 0 1 5.998 5.959C14.887 10.903 12.995 12 10 12v4c-3.32 0-6-2.68-6-6l.002-.043C5.113 10.901 7.003 12 10 12z"/></svg></span> Underwater
+### Ripple Settings
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
+
+### Wake Height
+<div class="parameter">
+    <div class="parameter__info">
+        <span>Control the height/strength of wakes produced.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
+
+### Frequency Minimum
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
+
+### Frequency Maximum
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
+
+### Fade Distance
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
+
+### Time Scale
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
+    </div>
+    <div class="parameter__video"></div>
+</div>
+
+
+
+
+## <span class="twemoji"><svg height="1600" viewBox="0 0 1600 1600" width="1600" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"><sodipodi:namedview pagecolor="#303030" showgrid="true"><inkscape:grid id="grid5" units="px" spacingx="100" spacingy="100" color="#4772b3" opacity="0.2" visible="true" /></sodipodi:namedview><g fill="#fff"><g enable-background="new" transform="matrix(95.312415 0 0 100.99748 -10502.3145 -28561.311)"><path d="m114.20361 283.80598c1.65093 0 3 1.34907 3 3s-1.34907 3-3 3-3-1.34907-3-3 1.34907-3 3-3zm0 1c-1.11049 0-2 .88951-2 2s.88951 2 2 2 2-.88951 2-2-.88951-2-2-2z"/><path d="m115.59493 291.64794c1.65093 0 3 1.34907 3 3s-1.34907 3-3 3-3-1.34907-3-3 1.34907-3 3-3zm0 1c-1.11049 0-2 .88951-2 2s.88951 2 2 2 2-.88951 2-2-.88951-2-2-2z"/><path d="m122.93095 287.85344c1.65093 0 3 1.34907 3 3s-1.34907 3-3 3-3-1.34907-3-3 1.34907-3 3-3zm0 1c-1.11049 0-2 .88951-2 2s.88951 2 2 2 2-.88951 2-2-.88951-2-2-2z"/></g></g></svg></span> Underwater
 
 ### Objects
 <div class="parameter">
