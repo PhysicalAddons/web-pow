@@ -5,46 +5,26 @@
         'parameters': [
             {
                 'name': "Height",
-                'excerpt': 'Allows to control water height.',
-                'image': {
-                    'src':'../img/documentation/mesh_height.jpg',
-                    'alt':'Height example'
-                }
+                'excerpt': 'Allows to control water height.'
             },
             {
                 'name': 'Size',
                 'excerpt': 'The size of water mesh domain.',
-                'description': 'Water deformation from waves is applied within this distance.',
-                'image': {
-                    'src':'../img/documentation/mesh_size.jpg',
-                    'alt':'Size example'
-                }
+                'description': 'Water deformation from waves is applied within this distance.'
             },
             {
                 'name': 'Resolution',
                 'excerpt': 'Resolution of water mesh.',
-                'description': 'Higher values equal higher quality, but come at a cost to performance.',
-                'image': {
-                    'src':'../img/documentation/mesh_resolution.jpg',
-                    'alt':'Resolution example'
-                }
+                'description': 'Higher values equal higher quality, but come at a cost to performance.'
             },
             {
                 'name': 'Detail Resolution',
                 'excerpt': 'A subdivision of resolution parameter.',
-                'description': 'Improves quality at a performance cost.',
-                'image': {
-                    'src':'../img/documentation/mesh_detail_resolution.jpg',
-                    'alt':'Detail resolution example'
-                }
+                'description': 'Improves quality at a performance cost.'
             },
             {
                 'name': 'Shrinkwrap',
-                'excerpt': 'Select an object that the ocean will attempt to shrinkwrap to. Can be used to make the ocean match the shape of a local fluid simulation or to add some artistically driven shapes.',
-                'image': {
-                    'src':'../img/documentation/mesh_shrinkwrap.jpg',
-                    'alt':'Shrinkwrap example'
-                }
+                'excerpt': 'Select an object that the ocean will attempt to shrinkwrap to. Can be used to make the ocean match the shape of a local fluid simulation or to add some artistically driven shapes.'
             },
 
         ]
@@ -55,154 +35,86 @@
         'parameters': [
             {
                 'name': 'Type',
-                'excerpt': 'A choice between Refractive and Subsurface scatter.',
-                'image': {
-                    'src':'../img/documentation/material_type.jpg',
-                    'alt':'Material Type'
-                }
+                'excerpt': 'A choice between Refractive and Subsurface scatter.'
             },
             {
                 'name': 'Color',
-                'excerpt': 'The scattering color of ocean.',
-                'image': {
-                    'src':'../img/documentation/material_color.jpg',
-                    'alt':'Material Color'
-                }
+                'excerpt': 'The scattering color of ocean.'
             },
             {
                 'name': 'Extinction',
                 'excerpt': 'The extinction parameter of ocean material. Allows determining how quickly different colors get absorbed by water.',
-                'description': 'In most cases should be the inverse of color parameter, but can be varied to accommodate certain material properties and for artistic control.',
-                'image': {
-                    'src':'../img/documentation/material_extinction.jpg',
-                    'alt':'Material Extinction'
-                }
+                'description': 'In most cases should be the inverse of color parameter, but can be varied to accommodate certain material properties and for artistic control.'
             },
             {
                 'name': 'Scattering distance',
                 'excerpt': 'A factor by which light gets scattered over distance.',
-                'description': 'Lower number equals less scattering per light distance travelled, thus resulting in better underwater clarity.',
-                'image': {
-                    'src':'../img/documentation/material_scattering_distance.jpg',
-                    'alt':'Material Scattering Distance'
-                }
+                'description': 'Lower number equals less scattering per light distance travelled, thus resulting in better underwater clarity.'
             },
             {
                 'name': 'Vertical Scattering',
                 'excerpt': 'Adjusts the amount of light scattering vertically in the ocean surface simulation.',
-                'description': 'Increasing this parameter enhances the vertical distribution of scattered light, affecting the appearance of subsurface details and light diffusion below the surface.',
-                'image': {
-                    'src':'../img/documentation/material_vertical_scattering.jpg',
-                    'alt':'Material Vertical Scattering'
-                }
+                'description': 'Increasing this parameter enhances the vertical distribution of scattered light, affecting the appearance of subsurface details and light diffusion below the surface.'
             },
             {
                 'name': 'Vertical Scattering Exponent',
                 'excerpt': 'Controls the exponent used in the calculation of vertical scattering.',
-                'description': 'This parameter fine-tunes the rate at which light scatters vertically through the ocean surface. Adjusting this exponent alters the distribution and intensity of vertical scattering.',
-                'image': {
-                    'src':'../img/documentation/material_vertical_scattering_exponent.jpg',
-                    'alt':'Material Vertical Scattering Exponent'
-                }
+                'description': 'This parameter fine-tunes the rate at which light scatters vertically through the ocean surface. Adjusting this exponent alters the distribution and intensity of vertical scattering.'
             },
             {
                 'name': 'Snell’s Scattering',
                 'excerpt': 'Specifies the coefficient used in the calculation of light refraction based on Snell’s Law at the ocean surface.',
-                'description': 'This coefficient determines the degree of bending of light rays as they pass through the water-air interface.',
-                'image': {
-                    'src':'../img/documentation/material_snells_scattering.jpg',
-                    'alt':'Material Snell’s Scattering'
-                }
+                'description': 'This coefficient determines the degree of bending of light rays as they pass through the water-air interface.'
             },
             {
                 'name': 'Forward Scattering',
                 'excerpt': 'Controls the amount of forward scattering of light in the ocean surface simulation.',
-                'description': 'Forward scattering occurs when light is redirected along its original path or slightly deviates from it, influencing the overall visibility and atmosphere of the scene.',
-                'image': {
-                    'src':'../img/documentation/material_forward_scattering.jpg',
-                    'alt':'Material Forward Scattering'
-                }
+                'description': 'Forward scattering occurs when light is redirected along its original path or slightly deviates from it, influencing the overall visibility and atmosphere of the scene.'
             },
             {
                 'name': 'Back Scattering',
                 'excerpt': 'Adjusts the intensity of backscattering in the ocean surface simulation.',
-                'description': 'Back scattering involves the redirection of light away from its original path, influencing the overall brightness and visual clarity of the water surface.',
-                'image': {
-                    'src':'../img/documentation/material_back_scattering.jpg',
-                    'alt':'Material Back Scattering'
-                }
+                'description': 'Back scattering involves the redirection of light away from its original path, influencing the overall brightness and visual clarity of the water surface.'
             },
             {
                 'name': 'Reflection IOR',
                 'excerpt': '',
-                'description': '',
-                'image': {
-                    'src':'../img/documentation/material_reflaction_ior.jpg',
-                    'alt':'Material Reflection IOR'
-                }
+                'description': ''
             },
             {
                 'name': 'Refraction IOR',
                 'excerpt': '',
-                'description': '',
-                'image': {
-                    'src':'../img/documentation/material_refraction_ior.jpg',
-                    'alt':'Material Refraction IOR'
-                }
+                'description': ''
             },
             {
                 'name': 'Refraction Dispersion',
                 'excerpt': '',
-                'description': '',
-                'image': {
-                    'src':'../img/documentation/material_refraction_dispersion.jpg',
-                    'alt':'Material Refraction Dispersion'
-                }
+                'description': ''
             },
             {
                 'name': 'Reflection Fresnel Boost',
                 'excerpt': '',
-                'description': '',
-                'image': {
-                    'src':'../img/documentation/material_reflection_fresnel_boost.jpg',
-                    'alt':'Material Reflection Fresnel Boost'
-                }
+                'description': ''
             },
             {
                 'name': 'Camera Near Offset',
                 'excerpt': 'Offsets the near clipping plane of the camera used in the simulation.',
-                'description': 'This parameter adjusts the minimum distance from the camera at which objects are rendered, preventing clipping issues and improving the rendering of nearby objects.',
-                'image': {
-                    'src':'../img/documentation/material_camera_near_offset.jpg',
-                    'alt':'Material Camera Near Offset'
-                }
+                'description': 'This parameter adjusts the minimum distance from the camera at which objects are rendered, preventing clipping issues and improving the rendering of nearby objects.'
             },
             {
                 'name': 'Color',
                 'excerpt': '',
-                'description': '',
-                'image': {
-                    'src':'../img/documentation/material_color.jpg',
-                    'alt':'Material '
-                }
+                'description': ''
             },
             {
                 'name': 'Subsurface Scale',
                 'excerpt': '',
-                'description': '',
-                'image': {
-                    'src':'../img/documentation/material_subsurface_scale.jpg',
-                    'alt':'Material '
-                }
+                'description': ''
             },
             {
                 'name': 'Reflection IOR',
                 'excerpt': '',
-                'description': '',
-                'image': {
-                    'src':'../img/documentation/material_reflection_ior.jpg',
-                    'alt':'Material '
-                }
+                'description': ''
             },
             
         ]   
