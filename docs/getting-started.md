@@ -41,11 +41,11 @@ also called _N Panel_. Click on the tab _Ocean_ to reveal it.
 !!! important
     You must have a camera in your scene to see the water. You must also make sure you to add a sun and allocate it to the add-on in the _Ocean_ panel.
 
-[![Enable POW](img/ENABLE_POW_v.jpg)](img/ENABLE_POW_v.jpg)
+[![Enable POW](img/ENABLE_POW.jpg)](img/ENABLE_POW.jpg)
 
 - To then remove the _Ocean_, you can locate and click the `X Remove Ocean` button.
 
-[![Disable POW](img/DISABLE_POW_v.jpg)](img/DISABLE_POW_v.jpg)
+[![Disable POW](img/DISABLE_POW.jpg)](img/DISABLE_POW.jpg)
 
 
 !!! summary "What happens when the _Ocean_ is added?"
@@ -55,7 +55,7 @@ also called _N Panel_. Click on the tab _Ocean_ to reveal it.
 
 Presets allow you to store a snapshot of your customized ocean settings and return to it later or use already predefined presets provided by the add-on.
 
-[![Preset panel](img/UI/PRESET_PANEL_v182.jpg)](img/UI/PRESET_PANEL_v182.jpg)
+[![Preset panel](img/PRESET_PANEL.jpg)](img/PRESET_PANEL.jpg)
 
 The add-on comes with 7 different presets:
 
