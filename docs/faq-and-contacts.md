@@ -19,16 +19,7 @@ title: FAQ and contacts
     Here's [more in depth explanation](https://projects.blender.org/blender/blender/issues/112952) for the issue.
 
     Note: version 1.X is a basic build, that does not several features. Please refer to the [release notes](https://www.physicaladdons.com/pow/release-notes/). 
-    
-    
 
-> We'll be taking closer look at the attribute nodes and how to address this issue right after the 1.1 release.
-
-
-??? cite "Why do PSA presets (from Asset Browser) overwrite POW ocean data?"
-    When using _Physical Starlight atmosphere_ (PSA) together with Physical Open water addon and applying asset it will overwrite World data and break the water surface.
-
-> We'll be migrating PSA assets to our preset system to avoid this issue.
 
 
 <!-- **When disabling `Underwater > World Underwater` sometimes breaks World shader**
@@ -36,5 +27,8 @@ title: FAQ and contacts
 For example if Physical Starlight Atmosphere -->
 
 
-??? cite "Didn't find your answer?"
-    Visit our community support [Discord channel](https://discord.gg/wvzPVzj9Vr) for more help.
+--------------------------
+
+**Didn't find your answer?**
+
+Visit our community support [Discord channel](https://discord.gg/wvzPVzj9Vr) for more help.

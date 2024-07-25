@@ -9,13 +9,13 @@
             },
             {
                 'name': 'Size',
-                'excerpt': 'The size of water mesh domain.',
+                'excerpt': 'The size of the water mesh domain.',
                 'description': 'Water deformation from waves is applied within this distance.'
             },
             {
                 'name': 'Resolution',
                 'excerpt': 'Resolution of water mesh.',
-                'description': 'Higher values equal higher quality, but come at a cost to performance.'
+                'description': 'Higher values equal higher quality but come at a cost to performance.'
             },
             {
                 'name': 'Detail Resolution',
@@ -24,7 +24,8 @@
             },
             {
                 'name': 'Shrinkwrap',
-                'excerpt': 'Select an object that the ocean will attempt to shrinkwrap to. Can be used to make the ocean match the shape of a local fluid simulation or to add some artistically driven shapes.'
+                'excerpt': 'Select an object that the ocean will attempt to shrinkwrap to.',
+                'description': 'Can be used to make the ocean match the shape of a local fluid simulation or to add some artistically driven shapes.'
             },
 
         ]
@@ -35,21 +36,23 @@
         'parameters': [
             {
                 'name': 'Type',
-                'excerpt': 'A choice between Refractive and Subsurface scatter.'
+                'excerpt': 'A choice between Refractive and Subsurface scatter.',
+                'description': 'Refractive material uses more a complex shader, that can potentially be slower but gives more realistic results. It includes light refraction and dispersion effects. Subsurface material uses a simple subsurface shader to approximate underwater color and light scattering.'
             },
             {
                 'name': 'Color',
-                'excerpt': 'The scattering color of ocean.'
+                'excerpt': 'The scattering color of the ocean.',
+                'description': ' Adjusting the ocean color helps achieve the desired visual effect for different types of water bodies, from clear tropical waters to deep, murky seas.'
             },
             {
                 'name': 'Extinction',
-                'excerpt': 'The extinction parameter of ocean material. Allows determining how quickly different colors get absorbed by water.',
-                'description': 'In most cases should be the inverse of color parameter, but can be varied to accommodate certain material properties and for artistic control.'
+                'excerpt': 'The extinction parameter of ocean material. Determines how quickly different colors get absorbed by water.',
+                'description': 'In most cases should be the inverse of the color parameter, but can be varied to accommodate certain material properties and for artistic control.'
             },
             {
                 'name': 'Scattering distance',
                 'excerpt': 'A factor by which light gets scattered over distance.',
-                'description': 'Lower number equals less scattering per light distance travelled, thus resulting in better underwater clarity.'
+                'description': 'Lower number equals less scattering per light distance traveled, thus resulting in better underwater clarity.'
             },
             {
                 'name': 'Vertical Scattering',
@@ -78,43 +81,33 @@
             },
             {
                 'name': 'Reflection IOR',
-                'excerpt': '',
-                'description': ''
+                'excerpt': 'Index of refraction for ocean reflections.',
+                'description': 'Affects reflectivity and more perpendicular view angles to the surface. Higher IOR generally gives a more reflective surface. Most commonly will match with Refraction IOR.'
             },
             {
                 'name': 'Refraction IOR',
-                'excerpt': '',
-                'description': ''
+                'excerpt': 'Index of refraction for ocean refractions.',
+                'description': 'Affects how much light gets refracted. Higher values cause larger refractive distortion when looking at objects underwater.'
             },
             {
                 'name': 'Refraction Dispersion',
-                'excerpt': '',
-                'description': ''
+                'excerpt': 'Amount of dispersion in the material.',
+                'description': 'Allows tweaking the amount of dispersion. Larger values cause larger chromatic fringing around the edges of refracted objects. At a value of 0, no dispersion effects will be seen.'
             },
             {
                 'name': 'Reflection Fresnel Boost',
-                'excerpt': '',
-                'description': ''
+                'excerpt': 'Fresnel boost for improving the look of reflections when using a plane reflection probe.',
+                'description': 'When using a plane reflection probe, the reflections may look off. Use this to tweak them and make them look more in line with other reflection techniques.'
             },
             {
                 'name': 'Camera Near Offset',
-                'excerpt': 'Offsets the near clipping plane of the camera used in the simulation.',
+                'excerpt': 'Offsets the near-clipping plane of the camera used in the simulation.',
                 'description': 'This parameter adjusts the minimum distance from the camera at which objects are rendered, preventing clipping issues and improving the rendering of nearby objects.'
             },
             {
-                'name': 'Color',
-                'excerpt': '',
-                'description': ''
-            },
-            {
                 'name': 'Subsurface Scale',
-                'excerpt': '',
-                'description': ''
-            },
-            {
-                'name': 'Reflection IOR',
-                'excerpt': '',
-                'description': ''
+                'excerpt': 'The scale factor for scattering radius.',
+                'description': 'Determines how deep the light scattering penetrates the surface, affecting the softness of scattered light.'
             },
             
         ]   
@@ -125,17 +118,18 @@
         'parameters': [
             {
                 'name': 'Camera',
-                'excerpt': ''
+                'excerpt': 'Current camera object used by the addon.',
+                'description': 'The camera is mandatory for the addon to work properly.'
             },
             {
                 'name': 'End Clip Plane',
                 'excerpt': 'Sets the distance from the camera beyond which objects are no longer rendered.',
-                'description': 'This parameter determines the furthest point in the scene that is visible to the camera. It’s a built-in parameter for camera, exposed in the add-on for ease of access.'
+                'description': 'This parameter determines the furthest point in the scene that is visible to the camera. It’s a built-in parameter for the camera, exposed in the add-on for ease of access.'
             },
             {
                 'name': 'View Frustum Boost',
                 'excerpt': 'Adjusts the size of the view frustum used for rendering the ocean.',
-                'description': 'The view frustum defines the visible portion of the scene from the camera’s perspective. This is used to cull parts of ocean for performance, tweak this in case of unwanted artifacts.'
+                'description': 'The view frustum defines the visible portion of the scene from the camera’s perspective. This is used to cull parts of the ocean for performance, tweak this in case of unwanted artifacts.'
             },
             {
                 'name': 'Far LOD Offset',
@@ -151,12 +145,12 @@
             },
             {
                 'name': 'Time Multiplier',
-                'excerpt': 'Multiplier for simulation time.',
+                'excerpt': 'The multiplier for simulation time.',
             },
             {
                 'name': 'Water Edge',
                 'excerpt': 'Enables the rendering of a defined boundary or edge for the water surface in the scene.',
-                'description': 'This parameter controls the visibility and appearance of the boundary where the water meets camera as it gets submerged.'
+                'description': 'This parameter controls the visibility and appearance of the boundary where the water meets the camera as it gets submerged.'
             },
             {
                 'name': 'Z Offset',
@@ -165,12 +159,12 @@
             },
             {
                 'name': 'Width',
-                'excerpt': 'Control the width of the water edge. Generally recommended to extend it just past camera boundary.',
+                'excerpt': 'Control the width of the water edge. Generally recommended to extend it just past the camera boundary.',
             },
             {
                 'name': 'Height',
                 'excerpt': 'Control the height of the water edge, changing how large it appears on the screen.',
-                'description': 'Positive values make camera hydrophilic, while negative ones make it appear hydrophobic.'
+                'description': 'Positive values make the camera hydrophilic, while negative ones make it appear hydrophobic.'
             },
             {
                 'name': 'Resolution',
@@ -186,11 +180,11 @@
         'parameters': [
             {
                 'name': 'Smallest wave',
-                'excerpt': 'Control the horizontal scale of smallest waves (in meters).'
+                'excerpt': 'Control the horizontal scale of the smallest waves (in meters).'
             },
             {
                 'name': 'Largest wave',
-                'excerpt': 'Control the horizontal scale of largest waves (in meters).'
+                'excerpt': 'Control the horizontal scale of the largest waves (in meters).'
             },
             {
                 'name': 'Wave height',
@@ -207,7 +201,8 @@
             },
             {
                 'name': 'Dispersion',
-                'excerpt': 'Control wave dispersion angle. Low values make concentric wave strips, while higher values create a more chaotic ocean.',
+                'excerpt': 'Control wave dispersion angle.',
+                'description': ' Low values make concentric wave strips, while higher values create a more chaotic ocean.'
             },
             {
                 'name': 'Angle',
@@ -233,11 +228,13 @@
         'parameters': [
             {
                 'name': 'Strength',
-                'excerpt': 'The strength of capillary waves. Higher values make for more defined waves.',
+                'excerpt': 'The strength of capillary waves.',
+                'description': 'Higher values make for more defined waves.'
             },
             {
                 'name': 'Scale',
-                'excerpt': 'Scale of capillary waves. Higher scale value means more waves per surface area.',
+                'excerpt': 'Scale of capillary waves.',
+                'description': 'A higher scale value means more waves per surface area.'
             },
             {
                 'name': 'Stretch',
@@ -247,7 +244,7 @@
             {
                 'name': 'Direction',
                 'excerpt': 'The direction of capillary waves.',
-                'description': 'Having this value differ from dominant wave direction allows simulating effect of local breeze being different from main wind direction, as an example.'
+                'description': 'Having this value differ from the dominant wave direction allows simulating effect of a local breeze being different from the main wind direction, as an example.'
             },
             {
                 'name': 'Speed',
@@ -256,7 +253,7 @@
             {
                 'name': 'Variance',
                 'excerpt': 'Capillary wave variance across the ocean surface.',
-                'description': 'Lower values make more uniform looking capillary waves.'
+                'description': 'Lower values make more uniform-looking capillary waves.'
             },
             {
                 'name': 'Drag',
@@ -268,7 +265,7 @@
             },
             {
                 'name': 'Mask Offset',
-                'excerpt': ''
+                'excerpt': 'Offset the coordinates of the mask texture used to vary capillary wave distribution and macro scale roughness.'
             },
             {
                 'name': 'Mask Minimum',
@@ -298,15 +295,11 @@
             },
             {
                 'name': 'Boolean',
-                'excerpt': 'Select object and enable boolean checkbox to make the object cut a boolean hole in ocean.'
+                'excerpt': 'Select an object and enable the boolean checkbox to make the object cut a boolean hole in the ocean.'
             },
             {
                 'name': 'Ripples',
-                'excerpt': 'Select object and enable ripple checkbox to make the object produce ripples.'
-            },
-            {
-                'name': 'Ripple Settings',
-                'excerpt': ''
+                'excerpt': 'Select an object and enable the ripple checkbox to make the object produce ripples.'
             },
             {
                 'name': 'Wake Height',
@@ -314,19 +307,19 @@
             },
             {
                 'name': 'Frequency Minimum',
-                'excerpt': ''
+                'excerpt': 'Sets the lowest frequency of waves and ripples, affecting larger, slow waves.'
             },
             {
                 'name': 'Frequency Maximum',
-                'excerpt': ''
+                'excerpt': 'Sets the highest frequency of waves and ripples, affecting smaller, fast waves.'
             },
             {
                 'name': 'Fade Distance',
-                'excerpt': ''
+                'excerpt': 'Controls how quickly waves and ripples diminish over distance in the simulation.'
             },
             {
                 'name': 'Time Scale',
-                'excerpt': ''
+                'excerpt': 'How fast ripples move in the simulation.'
             },
 
 
@@ -342,12 +335,13 @@
             },
             {
                 'name': 'Submerged Underwater',
-                'excerpt': 'Toggle underwater calculations for selected objects materials.'
+                'excerpt': 'Toggle underwater calculations for selected objects materials.',
+                'description': 'Enabling this adds underwater fog, light attenuation and surface tension effects to all materials of the selected objects.'
             },
             {
                 'name': 'Advanced Intersection',
                 'excerpt': 'Toggle advanced intersection calculation.',
-                'description': 'Gives more accurate underwater shader that matches wave shapes. Comes at a performance cost, so only use it for objects nearby where this is noticeable.'
+                'description': 'Gives a more accurate underwater shader that matches wave shapes. Comes at a performance cost, so only use it for objects nearby where this is noticeable.'
             },
             {
                 'name': 'Particles',
@@ -355,22 +349,22 @@
             },
             {
                 'name': 'Domain size',
-                'excerpt': 'Determine the size of a simulated particle domain around camera.'
+                'excerpt': 'Determine the size of a simulated particle domain around the camera.'
             },
             {
                 'name': 'Domain Z Offset',
-                'excerpt': 'How far from camera particle domain is visible.',
+                'excerpt': 'Determine how far from the camera particle domain is visible.',
                 'description': 'Use to avoid potentially cut-off particles.'
             },
             {
                 'name': 'World Underwater',
                 'excerpt': 'Allows to toggle underwater shader for world shader.',
-                'description': 'It is used for ensuring fully covered underwater shader, including default Eevee reflections and refractions.'
+                'description': 'It is used for ensuring a fully covered underwater shader, including default Eevee reflections and refractions.'
             },
             {
                 'name': 'Advanced Volumetrics',
                 'excerpt': 'Enable Blender volumetrics in the ocean shader.',
-                'description': 'Allows for per-light interactions and shadows. High performance impact, especially in Cycles.'
+                'description': 'Allows for per-light interactions and shadows. High-performance impact, especially in Cycles.'
             },
             {
                 'name': 'Volume Density',
@@ -378,14 +372,14 @@
             },
             {
                 'name': 'Volume Distance',
-                'excerpt': 'Range in which the advanced volumetrics are used from camera.'
+                'excerpt': 'Range in which the advanced volumetrics are used from the camera.'
             }
         ]
     },
 ]%}
 
 !!! tip ""
-    Hey :wave:, first time here? You can find the installation guide and first run in the [getting started](/pow/getting-started/) section.
+    Hey👋, first time here? You can find the installation guide and first run in the [getting started](/pow/getting-started/) section.
 
 * [Mesh](#mesh)
 * [Material](#material)
