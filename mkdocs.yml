@@ -31,7 +31,7 @@ nav:
   - Getting Started: getting-started.md
   - Documentation: documentation.md
   # - FAQ and contacts: faq-and-contacts.md
-  - Known issues: known-issues.md
+  - FAQ and contacts: faq-and-contacts.md
   - Release notes: release-notes.md
 extra_css:
   - stylesheets/extra.css
