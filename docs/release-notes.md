@@ -1,3 +1,9 @@
+### 1.2.1 <small>- released 31.07.2024</small>
+
+`fixed:`{: .label-fixed }
+
+- Fixed ocean not showing in render by default.
+
 ### 1.2.0 <small>- released 23.07.2024</small>
 
 `new:`{: .label-new }
