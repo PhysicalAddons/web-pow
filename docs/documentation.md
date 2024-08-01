@@ -20,25 +20,25 @@
     <div class="parameter__info">
         <span>Allows to control water height.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
     </div>
-    <div class="parameter__video"></div>
+    <div class="parameter__video"><video autoplay loop muted playsinline ><source src="../img/DOCUMENTATION/MESH_HEIGHT.mp4" type="video/mp4"></video></div>
 </div>
 
 
 ### Size
 <div class="parameter">
     <div class="parameter__info">
-        <span>The size of the water mesh domain.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">Water deformation from waves is applied within this distance.</span>
+        <span>The size of water mesh domain.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">Water deformation from waves is applied within this distance.</span>
     </div>
-    <div class="parameter__video"></div>
+    <div class="parameter__video"><video autoplay loop muted playsinline ><source src="../img/DOCUMENTATION/MESH_SIZE.mp4" type="video/mp4"></video></div>
 </div>
 
 
 ### Resolution
 <div class="parameter">
     <div class="parameter__info">
-        <span>Resolution of water mesh.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">Higher values equal higher quality but come at a cost to performance.</span>
+        <span>Resolution of water mesh.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">Higher values equal higher quality, but come at a cost to performance.</span>
     </div>
-    <div class="parameter__video"></div>
+    <div class="parameter__video"><video autoplay loop muted playsinline ><source src="../img/DOCUMENTATION/MESH_RESOLUTION.mp4" type="video/mp4"></video></div>
 </div>
 
 
@@ -47,7 +47,7 @@
     <div class="parameter__info">
         <span>A subdivision of resolution parameter.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">Improves quality at a performance cost.</span>
     </div>
-    <div class="parameter__video"></div>
+    <div class="parameter__video"><video autoplay loop muted playsinline ><source src="../img/DOCUMENTATION/MESH_DETAIL_RESOLUTION.mp4" type="video/mp4"></video></div>
 </div>
 
 
@@ -78,7 +78,7 @@
     <div class="parameter__info">
         <span>The scattering color of the ocean.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"> Adjusting the ocean color helps achieve the desired visual effect for different types of water bodies, from clear tropical waters to deep, murky seas.</span>
     </div>
-    <div class="parameter__video"></div>
+    <div class="parameter__video"><video autoplay loop muted playsinline ><source src="../img/DOCUMENTATION/MATERIAL_COLOR.mp4" type="video/mp4"></video></div>
 </div>
 
 
@@ -148,9 +148,9 @@
 ### Reflection IOR
 <div class="parameter">
     <div class="parameter__info">
-        <span>Index of refraction for ocean reflections.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">Affects reflectivity and more perpendicular view angles to the surface. Higher IOR generally gives a more reflective surface. Most commonly will match with Refraction IOR.</span>
+        <span>Index of reflection for ocean reflections.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">Affects reflectivity and more perpendicular view angles to the surface. Higher IOR generally gives a more reflective surface. Most commonly will match with Refraction IOR.</span>
     </div>
-    <div class="parameter__video"></div>
+    <div class="parameter__video"><video autoplay loop muted playsinline ><source src="../img/DOCUMENTATION/MATERIAL_REFLECTION_IOR.mp4" type="video/mp4"></video></div>
 </div>
 
 
@@ -159,7 +159,7 @@
     <div class="parameter__info">
         <span>Index of refraction for ocean refractions.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">Affects how much light gets refracted. Higher values cause larger refractive distortion when looking at objects underwater.</span>
     </div>
-    <div class="parameter__video"></div>
+    <div class="parameter__video"><video autoplay loop muted playsinline ><source src="../img/DOCUMENTATION/MATERIAL_REFRACTION_IOR.mp4" type="video/mp4"></video></div>
 </div>
 
 
@@ -177,7 +177,7 @@
     <div class="parameter__info">
         <span>Fresnel boost for improving the look of reflections when using a plane reflection probe.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">When using a plane reflection probe, the reflections may look off. Use this to tweak them and make them look more in line with other reflection techniques.</span>
     </div>
-    <div class="parameter__video"></div>
+    <div class="parameter__video"><video autoplay loop muted playsinline ><source src="../img/DOCUMENTATION/MATERIAL_REFLECTION_FRESNEL_BOOST.mp4" type="video/mp4"></video></div>
 </div>
 
 
@@ -190,12 +190,30 @@
 </div>
 
 
+### Color
+<div class="parameter">
+    <div class="parameter__info">
+        <span>The scattering color of ocean.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)"></span>
+    </div>
+    <div class="parameter__video"><video autoplay loop muted playsinline ><source src="../img/DOCUMENTATION/MATERIAL_COLOR.mp4" type="video/mp4"></video></div>
+</div>
+
+
 ### Subsurface Scale
 <div class="parameter">
     <div class="parameter__info">
         <span>The scale factor for scattering radius.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">Determines how deep the light scattering penetrates the surface, affecting the softness of scattered light.</span>
     </div>
     <div class="parameter__video"></div>
+</div>
+
+
+### Reflection IOR
+<div class="parameter">
+    <div class="parameter__info">
+        <span></span>
+    </div>
+    <div class="parameter__video"><video autoplay loop muted playsinline ><source src="../img/DOCUMENTATION/MATERIAL_REFLECTION_IOR.mp4" type="video/mp4"></video></div>
 </div>
 
 
@@ -215,9 +233,9 @@
 ### End Clip Plane
 <div class="parameter">
     <div class="parameter__info">
-        <span>Sets the distance from the camera beyond which objects are no longer rendered.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">This parameter determines the furthest point in the scene that is visible to the camera. It’s a built-in parameter for the camera, exposed in the add-on for ease of access.</span>
+        <span>Sets the distance from the camera beyond which objects are no longer rendered.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">This parameter determines the furthest point in the scene that is visible to the camera. It’s a built-in parameter for the camera, exposed in the add-on for ease of access</span>
     </div>
-    <div class="parameter__video"></div>
+    <div class="parameter__video"><video autoplay loop muted playsinline ><source src="../img/DOCUMENTATION/CAMERA_END.mp4" type="video/mp4"></video></div>
 </div>
 
 
@@ -226,7 +244,7 @@
     <div class="parameter__info">
         <span>Adjusts the size of the view frustum used for rendering the ocean.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">The view frustum defines the visible portion of the scene from the camera’s perspective. This is used to cull parts of the ocean for performance, tweak this in case of unwanted artifacts.</span>
     </div>
-    <div class="parameter__video"></div>
+    <div class="parameter__video"><video autoplay loop muted playsinline ><source src="../img/DOCUMENTATION/CAMERA_FRUSTUM_BOOST.mp4" type="video/mp4"></video></div>
 </div>
 
 
@@ -271,7 +289,7 @@
     <div class="parameter__info">
         <span>Enables the rendering of a defined boundary or edge for the water surface in the scene.</span><span style="margin-left: 4px; color: rgba(0,0,0,.5)">This parameter controls the visibility and appearance of the boundary where the water meets the camera as it gets submerged.</span>
     </div>
-    <div class="parameter__video"></div>
+    <div class="parameter__video"><img src="../img/DOCUMENTATION/CAMERA_WATER_EDGE.png" alt="Camera Water Edge" /></div>
 </div>
 
 
