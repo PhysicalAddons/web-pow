@@ -13,7 +13,7 @@ Latest Physical Open Waters is supported by [Blender 3.6.0+](https://www.blender
 ??? warning "Use on MacOS (currently not supported on Eevee). But works with a workaround 👇"
     How to avoid Pink issue on MacOS Eevee (requires PSA addon):
 
-    - Add Physical Open Water (PCO) Ocean to the Scene.
+    - Add Physical Open Water (POW) Ocean to the Scene.
     - Enable Physical Starlight and Atmosphere (PSA) and enable it in the scene.
      
 
@@ -44,13 +44,15 @@ also called _N Panel_. Click on the tab _Ocean_ to reveal it.
 
 [![Enable POW](img/ENABLE_POW.jpg)](img/ENABLE_POW.jpg)
 
-- To then remove the _Ocean_, you can locate and click the `X Remove Ocean` button.
+<!-- - To then remove the _Ocean_, you can locate and click the `X Remove Ocean` button.
 
-[![Disable POW](img/DISABLE_POW.jpg)](img/DISABLE_POW.jpg)
+[![Disable POW](img/DISABLE_POW.jpg)](img/DISABLE_POW.jpg) -->
 
 
-<!-- !!! summary "What happens when the _Ocean_ is added?"
-    - <MĀRTIŅŠ> -->
+!!! summary "What happens when addon is being enabled/disabled?"
+    - A water mesh containing shaders and a geometry node setup is imported and added to the currently active scene. At the same time, several shader nodes are imported and added to the currently active world.
+    - If a sun is present in the scene, the addon's sun property is assigned to read data from that sun. It prioritizes PSA sun if one is present.
+    - If a camera is present in the scene, the addon's camera property is assigned, using active camera.
 
 ## Presets
 

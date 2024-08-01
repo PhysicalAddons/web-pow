@@ -1,3 +1,39 @@
+### 1.2.1 <small>- released 31.07.2024</small>
+
+`fixed:`{: .label-fixed }
+
+- Fixed ocean not showing in render by default.
+
+### 1.2.0 <small>- released 23.07.2024</small>
+
+`new:`{: .label-new }
+
+- Introduced new controls for adjusting ripples with updated default values.
+- Easily adjust reflections using the new control options.
+- New features (from v1.1) are now compatible with Blender 3.6 LTS.
+- Enhanced water shader for better precision and optimized performance.
+
+`improvements:`{: .label-improvements }
+
+- Added the abbreviation "POW" (Physical Open Waters) to simplify addon search in Blender Preferences.
+- Implemented a user-friendly way to indicate that a World is required to add an Ocean.
+
+
+`fixed:`{: .label-fixed }
+
+- Fixed link to documentation in the addon preferences panel.
+- Resolved the preset load error when migrating blend files between systems with different numbers of presets.
+- Fixed an issue that prevented Ocean removal when an object with an empty material slot was added.
+- Synchronized camera height and water level to fix underwater darkness.
+- Ensured the world ocean horizon remains unchanged when height is adjusted.
+- Fixed the ocean border shader.
+
+
+!!! Warning "Advanced: If your have modified Ocean node tree, backup your blend files before installing the new version."
+    Custom changes in the node setup may be overwritten during the update process as the Ocean is removed and added again.
+
+
+
 ### 1.1.1 <small>- released 09.04.2024</small>
 
 `new:`{: .label-new }
