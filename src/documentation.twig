@@ -5,22 +5,38 @@
         'parameters': [
             {
                 'name': "Height",
-                'excerpt': 'Allows to control water height.'
+                'excerpt': 'Allows to control water height.',
+                'video': {
+                    'src':'../docs/img/DOCUMENTATION/MESH_HEIGHT.mp4',
+                    'alt':'Mesh Height'
+                },
             },
             {
                 'name': 'Size',
                 'excerpt': 'The size of water mesh domain.',
-                'description': 'Water deformation from waves is applied within this distance.'
+                'description': 'Water deformation from waves is applied within this distance.',
+                'video': {
+                    'src':'../docs/img/DOCUMENTATION/MESH_SIZE.mp4',
+                    'alt':'Mesh Size'
+                },
             },
             {
                 'name': 'Resolution',
                 'excerpt': 'Resolution of water mesh.',
-                'description': 'Higher values equal higher quality, but come at a cost to performance.'
+                'description': 'Higher values equal higher quality, but come at a cost to performance.',
+                'video': {
+                    'src':'../docs/img/DOCUMENTATION/MESH_RESOLUTION.mp4',
+                    'alt':'Mesh Resolution'
+                },
             },
             {
                 'name': 'Detail Resolution',
                 'excerpt': 'A subdivision of resolution parameter.',
-                'description': 'Improves quality at a performance cost.'
+                'description': 'Improves quality at a performance cost.',
+                'video': {
+                    'src':'../docs/img/DOCUMENTATION/MESH_DETAIL_RESOLUTION.mp4',
+                    'alt':'Mesh Detail Resolution'
+                },
             },
             {
                 'name': 'Shrinkwrap',
@@ -39,7 +55,11 @@
             },
             {
                 'name': 'Color',
-                'excerpt': 'The scattering color of ocean.'
+                'excerpt': 'The scattering color of ocean.',
+                'video': {
+                    'src':'../docs/img/DOCUMENTATION/MATERIAL_COLOR.mp4',
+                    'alt':'Material Color'
+                },
             },
             {
                 'name': 'Extinction',
@@ -79,12 +99,20 @@
             {
                 'name': 'Reflection IOR',
                 'excerpt': '',
-                'description': ''
+                'description': '',
+                'video': {
+                    'src':'../docs/img/DOCUMENTATION/MATERIAL_REFLECTION_IOR.mp4',
+                    'alt':'Material Reflection IOR'
+                },
             },
             {
                 'name': 'Refraction IOR',
                 'excerpt': '',
-                'description': ''
+                'description': '',
+                'video': {
+                    'src':'../docs/img/DOCUMENTATION/MATERIAL_REFRACTION_IOR.mp4',
+                    'alt':'Material Refraction IOR'
+                },
             },
             {
                 'name': 'Refraction Dispersion',
@@ -94,7 +122,11 @@
             {
                 'name': 'Reflection Fresnel Boost',
                 'excerpt': '',
-                'description': ''
+                'description': '',
+                'video': {
+                    'src':'../docs/img/DOCUMENTATION/MATERIAL_REFLECTION_FRESNEL_BOOST.mp4',
+                    'alt':'Material Reflection Fresnel Boost'
+                },
             },
             {
                 'name': 'Camera Near Offset',
@@ -103,8 +135,11 @@
             },
             {
                 'name': 'Color',
-                'excerpt': '',
-                'description': ''
+                'excerpt': 'The scattering color of ocean.',
+                'video': {
+                    'src':'../docs/img/DOCUMENTATION/MATERIAL_COLOR.mp4',
+                    'alt':'Material Color'
+                },
             },
             {
                 'name': 'Subsurface Scale',
@@ -114,7 +149,11 @@
             {
                 'name': 'Reflection IOR',
                 'excerpt': '',
-                'description': ''
+                'description': '',
+                'video': {
+                    'src':'../docs/img/DOCUMENTATION/MATERIAL_REFLECTION_IOR.mp4',
+                    'alt':'Material Reflection IOR'
+                },
             },
             
         ]   
@@ -130,12 +169,20 @@
             {
                 'name': 'End Clip Plane',
                 'excerpt': 'Sets the distance from the camera beyond which objects are no longer rendered.',
-                'description': 'This parameter determines the furthest point in the scene that is visible to the camera. It’s a built-in parameter for camera, exposed in the add-on for ease of access.'
+                'description': 'This parameter determines the furthest point in the scene that is visible to the camera. It’s a built-in parameter for camera, exposed in the add-on for ease of access.',
+                'video': {
+                    'src':'../docs/img/DOCUMENTATION/CAMERA_END.mp4',
+                    'alt':'Camera End Clip Plane'
+                },
             },
             {
                 'name': 'View Frustum Boost',
                 'excerpt': 'Adjusts the size of the view frustum used for rendering the ocean.',
-                'description': 'The view frustum defines the visible portion of the scene from the camera’s perspective. This is used to cull parts of ocean for performance, tweak this in case of unwanted artifacts.'
+                'description': 'The view frustum defines the visible portion of the scene from the camera’s perspective. This is used to cull parts of ocean for performance, tweak this in case of unwanted artifacts.',
+                'video': {
+                    'src':'../docs/img/DOCUMENTATION/CAMERA_FRUSTUM_BOOST.mp4',
+                    'alt':'Camera Frustum Boost'
+                },
             },
             {
                 'name': 'Far LOD Offset',
@@ -156,7 +203,13 @@
             {
                 'name': 'Water Edge',
                 'excerpt': 'Enables the rendering of a defined boundary or edge for the water surface in the scene.',
-                'description': 'This parameter controls the visibility and appearance of the boundary where the water meets camera as it gets submerged.'
+                'description': 'This parameter controls the visibility and appearance of the boundary where the water meets camera as it gets submerged.',
+                CAMERA_WATER_EDGE.png
+                'image': {
+                    'src':'../docs/img/DOCUMENTATION/CAMERA_WATER_EDGE.png',
+                    'alt':'Camera Water Edge'
+                },
+
             },
             {
                 'name': 'Z Offset',
