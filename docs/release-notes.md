@@ -1,3 +1,9 @@
+### 1.2.2 <small>- released 24.01.2025</small>
+
+`fixed:`{: .label-fixed }
+
+- Relink existing foam making it available again.
+
 ### 1.2.1 <small>- released 31.07.2024</small>
 
 `fixed:`{: .label-fixed }
