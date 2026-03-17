@@ -10,13 +10,6 @@ _Physical Open Waters_ (POW) is a versatile Blender add-on that simplifies the c
 
 Latest Physical Open Waters is supported by [Blender 3.6.0+](https://www.blender.org/).
 
-??? warning "Use on MacOS (currently not supported on Eevee). But works with a workaround 👇"
-    How to avoid Pink issue on MacOS Eevee (requires PSA addon):
-
-    - Add Physical Open Water (POW) Ocean to the Scene.
-    - Enable Physical Starlight and Atmosphere (PSA) and enable it in the scene.
-     
-
 
 ## Installation
 
