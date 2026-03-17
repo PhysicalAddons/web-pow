@@ -1,3 +1,21 @@
+### 2.0.0 experimental :material-flask:{ title="Experimental" }<small>- released 17.03.2026</small>
+
+`new:`{: .label-new }
+
+- New Gabor-based wave algorithm for more realistic wave patterns
+- Anti-tiling system to eliminate visible repetition across the ocean surface
+- Added motion blur support
+- Added a Demo walkthrough to the UI
+- LUT-based data storage for more efficient wave computation
+
+`improvements:`{: .label-improvements }
+
+- More efficient mesh generation
+- Moved the wave generation from Geometry Nodes to the shader
+- Improved water shader performance
+- Removed frustum culling to allow objects to reflect the ocean from outside the camera view
+
+
 ### 1.2.2 <small>- released 24.01.2025</small>
 
 `fixed:`{: .label-fixed }
