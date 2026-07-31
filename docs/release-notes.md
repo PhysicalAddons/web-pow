@@ -1,3 +1,14 @@
+### 1.2.3 <small>- released 31.07.2026</small>
+
+`fixed:`{: .label-fixed }
+
+- Blender 5.2 changed the Python interface of the Geometry Nodes modifier. This change caused an error when you enabled POW or added an Ocean. POW now operates correctly in Blender 5.2 and in earlier versions.
+- Blender 5.2 showed warnings in the console when it loaded the Ocean. POW now uses integer nodes for the resolution inputs. POW does not keep an unwanted driver on the Ocean object.
+
+!!! warning "Caution"
+    The update removes the Ocean and adds it again. This can delete your changes to the Ocean node tree. Make a backup copy of your blend files before you install the new version.
+
+
 ### 2.0.0 experimental :material-flask:{ title="Experimental" }<small>- released 17.03.2026</small>
 
 `new:`{: .label-new }

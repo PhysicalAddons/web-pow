@@ -1,6 +1,7 @@
 .idea
 *.iml
 /venv
+/.venv
 **/node_modules/*
 *.DS_Store
 # Local Netlify folder
