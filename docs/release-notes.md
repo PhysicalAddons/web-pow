@@ -16,6 +16,21 @@
 - Removed frustum culling to allow objects to reflect the ocean from outside the camera view
 
 
+### 1.2.4 <small>- released 11.11.2026</small>
+
+`fixed:`{: .label-fixed }
+
+- The ocean survives a change of the scene world. When Physical Atmosphere² or another add-on replaces the world, the ocean keeps its settings, camera and sun. Files that lost their ocean this way repair themselves when you open them.
+- Ctrl+Z directly after Add Ocean crashed Blender.
+- Add Ocean reconnects an ocean that is already in the scene instead of adding a second one.
+- The ocean follows the sun of the atmosphere add-on that owns the world: Physical Atmosphere², then Physical Starlight and Atmosphere, then the brightest sun lamp.
+
+### 1.2.3 <small>- released 31.07.2026</small>
+
+`fixed:`{: .label-fixed }
+
+- Blender 5.2 support.
+
 ### 1.2.2 <small>- released 24.01.2025</small>
 
 `fixed:`{: .label-fixed }
