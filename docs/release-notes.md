@@ -1,127 +1,135 @@
-### 2.0.0 experimental :material-flask:{ title="Experimental" }<small>- released 17.03.2026</small>
+=== "Stable"
 
-`new:`{: .label-new }
+    ### 1.2.4 <small>- released 11.11.2026</small>
 
-- New Gabor-based wave algorithm for more realistic wave patterns
-- Anti-tiling system to eliminate visible repetition across the ocean surface
-- Added motion blur support
-- Added a Demo walkthrough to the UI
-- LUT-based data storage for more efficient wave computation
+    `fixed:`{: .label-fixed }
 
-`improvements:`{: .label-improvements }
+    - The ocean survives a change of the scene world. When Physical Atmosphere² or another add-on replaces the world, the ocean keeps its settings, camera and sun. Files that lost their ocean this way repair themselves when you open them.
+    - Ctrl+Z directly after Add Ocean crashed Blender.
+    - Add Ocean reconnects an ocean that is already in the scene instead of adding a second one.
+    - The ocean follows the sun of the atmosphere add-on that owns the world: Physical Atmosphere², then Physical Starlight and Atmosphere, then the brightest sun lamp.
 
-- More efficient mesh generation
-- Moved the wave generation from Geometry Nodes to the shader
-- Improved water shader performance
-- Removed frustum culling to allow objects to reflect the ocean from outside the camera view
+    ### 1.2.3 <small>- released 31.07.2026</small>
 
+    `fixed:`{: .label-fixed }
 
-### 1.2.4 <small>- released 11.11.2026</small>
+    - Blender 5.2 changed the Python interface of the Geometry Nodes modifier. This change caused an error when you enabled POW or added an Ocean. POW now operates correctly in Blender 5.2 and in earlier versions.
+    - Blender 5.2 showed warnings in the console when it loaded the Ocean. POW now uses integer nodes for the resolution inputs. POW does not keep an unwanted driver on the Ocean object.
 
-`fixed:`{: .label-fixed }
-
-- The ocean survives a change of the scene world. When Physical Atmosphere² or another add-on replaces the world, the ocean keeps its settings, camera and sun. Files that lost their ocean this way repair themselves when you open them.
-- Ctrl+Z directly after Add Ocean crashed Blender.
-- Add Ocean reconnects an ocean that is already in the scene instead of adding a second one.
-- The ocean follows the sun of the atmosphere add-on that owns the world: Physical Atmosphere², then Physical Starlight and Atmosphere, then the brightest sun lamp.
-
-### 1.2.3 <small>- released 31.07.2026</small>
-
-`fixed:`{: .label-fixed }
-
-- Blender 5.2 support.
-
-### 1.2.2 <small>- released 24.01.2025</small>
-
-`fixed:`{: .label-fixed }
-
-- Relink existing foam making it available again.
-
-### 1.2.1 <small>- released 31.07.2024</small>
-
-`fixed:`{: .label-fixed }
-
-- Fixed ocean not showing in render by default.
-
-### 1.2.0 <small>- released 23.07.2024</small>
-
-`new:`{: .label-new }
-
-- Introduced new controls for adjusting ripples with updated default values.
-- Easily adjust reflections using the new control options.
-- New features (from v1.1) are now compatible with Blender 3.6 LTS.
-- Enhanced water shader for better precision and optimized performance.
-
-`improvements:`{: .label-improvements }
-
-- Added the abbreviation "POW" (Physical Open Waters) to simplify addon search in Blender Preferences.
-- Implemented a user-friendly way to indicate that a World is required to add an Ocean.
+    !!! warning "Caution"
+        The update removes the Ocean and adds it again. This can delete your changes to the Ocean node tree. Make a backup copy of your blend files before you install the new version.
 
 
-`fixed:`{: .label-fixed }
+    ### 1.2.2 <small>- released 24.01.2025</small>
 
-- Fixed link to documentation in the addon preferences panel.
-- Resolved the preset load error when migrating blend files between systems with different numbers of presets.
-- Fixed an issue that prevented Ocean removal when an object with an empty material slot was added.
-- Synchronized camera height and water level to fix underwater darkness.
-- Ensured the world ocean horizon remains unchanged when height is adjusted.
-- Fixed the ocean border shader.
+    `fixed:`{: .label-fixed }
+
+    - Relink existing foam making it available again.
+
+    ### 1.2.1 <small>- released 31.07.2024</small>
+
+    `fixed:`{: .label-fixed }
+
+    - Fixed ocean not showing in render by default.
+
+    ### 1.2.0 <small>- released 23.07.2024</small>
+
+    `new:`{: .label-new }
+
+    - Introduced new controls for adjusting ripples with updated default values.
+    - Easily adjust reflections using the new control options.
+    - New features (from v1.1) are now compatible with Blender 3.6 LTS.
+    - Enhanced water shader for better precision and optimized performance.
+
+    `improvements:`{: .label-improvements }
+
+    - Added the abbreviation "POW" (Physical Open Waters) to simplify addon search in Blender Preferences.
+    - Implemented a user-friendly way to indicate that a World is required to add an Ocean.
 
 
-!!! Warning "Advanced: If your have modified Ocean node tree, backup your blend files before installing the new version."
-    Custom changes in the node setup may be overwritten during the update process as the Ocean is removed and added again.
+    `fixed:`{: .label-fixed }
+
+    - Fixed link to documentation in the addon preferences panel.
+    - Resolved the preset load error when migrating blend files between systems with different numbers of presets.
+    - Fixed an issue that prevented Ocean removal when an object with an empty material slot was added.
+    - Synchronized camera height and water level to fix underwater darkness.
+    - Ensured the world ocean horizon remains unchanged when height is adjusted.
+    - Fixed the ocean border shader.
+
+
+    !!! Warning "Advanced: If your have modified Ocean node tree, backup your blend files before installing the new version."
+        Custom changes in the node setup may be overwritten during the update process as the Ocean is removed and added again.
 
 
 
-### 1.1.1 <small>- released 09.04.2024</small>
+    ### 1.1.1 <small>- released 09.04.2024</small>
 
-`new:`{: .label-new }
+    `new:`{: .label-new }
 
-- Mesh: added a way to increase height of the Ocean.
-- Material: added an option to select between Refractive and Subsurface Scatter shader models. 
+    - Mesh: added a way to increase height of the Ocean.
+    - Material: added an option to select between Refractive and Subsurface Scatter shader models. 
 
-`fixed:`{: .label-fixed }
+    `fixed:`{: .label-fixed }
 
-- Fixed _red ocean_ appearing in Cycles rendering engine if ocean was removed and then added.
-
-
-    !!! Bug "Fixing _red ocean_ issue in the old files:"
-        1. Save new preset with your current ocean settings
-        2. Remove Ocean
-        3. Add Ocean
-        4. Apply your previously created preset
-    
+    - Fixed _red ocean_ appearing in Cycles rendering engine if ocean was removed and then added.
 
 
-### 1.1.0 <small>- released 28.03.2024</small>
-
-[![Release 1.1.0 banner](img/releases/pow-1.1.0.jpg)](img/releases/pow-1.1.0.jpg)
-`new:`{: .label-new }
-
-- Added underwater shader for water surface and world.
-- Added new water surface material with custom light dispersing refraction shader.
-- Mesh: added option to select an object to be able to shrinkwrap Ocean around it.
-- Material: added water subsurface color, extinction and scattering parameters.
-- Camera: added water edge that is shown whenever the camera is between the atmosphere and water.
-- Wakes & Ripples: added option to select up to 3 objects to apply ripples.
-- Underwater: added a way to select submerged objects to apply underwater shader.
-- Underwater: added particles that give a more realistic feel.
-- Underwater: added Blender underwater volumetric.
+        !!! Bug "Fixing _red ocean_ issue in the old files:"
+            1. Save new preset with your current ocean settings
+            2. Remove Ocean
+            3. Add Ocean
+            4. Apply your previously created preset
 
 
-`improvements:`{: .label-improvements }
 
-- Whenever PSA is turned on before adding ocean, Starlight Sun is automatically attached to the Sun slot.
+    ### 1.1.0 <small>- released 28.03.2024</small>
+
+    [![Release 1.1.0 banner](img/releases/pow-1.1.0.jpg)](img/releases/pow-1.1.0.jpg)
+    `new:`{: .label-new }
+
+    - Added underwater shader for water surface and world.
+    - Added new water surface material with custom light dispersing refraction shader.
+    - Mesh: added option to select an object to be able to shrinkwrap Ocean around it.
+    - Material: added water subsurface color, extinction and scattering parameters.
+    - Camera: added water edge that is shown whenever the camera is between the atmosphere and water.
+    - Wakes & Ripples: added option to select up to 3 objects to apply ripples.
+    - Underwater: added a way to select submerged objects to apply underwater shader.
+    - Underwater: added particles that give a more realistic feel.
+    - Underwater: added Blender underwater volumetric.
 
 
-### 1.0.2 <small>- released 18.12.2023</small>
+    `improvements:`{: .label-improvements }
 
-`improvements:`{: .label-improvements }
+    - Whenever PSA is turned on before adding ocean, Starlight Sun is automatically attached to the Sun slot.
 
-- Added a convenient shortcut to quickly access the location of your presets. 
 
-### 1.0.1 <small>- released 24.11.2023</small>
+    ### 1.0.2 <small>- released 18.12.2023</small>
 
-`new:`{: .label-new }
+    `improvements:`{: .label-improvements }
 
-- Now you can apply Wakes to the objects in the water. It is a pattern of waves created by an object moving through water. 
+    - Added a convenient shortcut to quickly access the location of your presets. 
+
+    ### 1.0.1 <small>- released 24.11.2023</small>
+
+    `new:`{: .label-new }
+
+    - Now you can apply Wakes to the objects in the water. It is a pattern of waves created by an object moving through water.
+
+=== "Experimental"
+
+    ### 2.0.0 experimental :material-flask:{ title="Experimental" }<small>- released 17.03.2026</small>
+
+    `new:`{: .label-new }
+
+    - New Gabor-based wave algorithm for more realistic wave patterns
+    - Anti-tiling system to eliminate visible repetition across the ocean surface
+    - Added motion blur support
+    - Added a Demo walkthrough to the UI
+    - LUT-based data storage for more efficient wave computation
+
+    `improvements:`{: .label-improvements }
+
+    - More efficient mesh generation
+    - Moved the wave generation from Geometry Nodes to the shader
+    - Improved water shader performance
+    - Removed frustum culling to allow objects to reflect the ocean from outside the camera view
