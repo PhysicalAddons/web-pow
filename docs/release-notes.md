@@ -115,9 +115,9 @@
 
     - Now you can apply Wakes to the objects in the water. It is a pattern of waves created by an object moving through water.
 
-=== "Experimental"
+=== ":material-flask: Experimental"
 
-    ### 2.0.0 experimental :material-flask:{ title="Experimental" }<small>- released 17.03.2026</small>
+    ### 2.0.0 <small>- released 17.03.2026</small>
 
     `new:`{: .label-new }
 
