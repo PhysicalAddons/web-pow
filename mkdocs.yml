@@ -14,7 +14,8 @@ site_url: https://www.physicaladdons.com/pow/
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.superfences
   - pymdownx.keys
   - attr_list
